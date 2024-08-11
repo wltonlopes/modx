@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_corral">
+  <AutoBuildable>
+    <Rate>0.5</Rate>
+  </AutoBuildable>
+  <BuildRestrictions>
+    <Category>Estufas</Category>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>cooperative</Civ>
+    <SpecificName>Agrós</SpecificName>
+    <SelectionGroupName>units/coalition/estufas</SelectionGroupName>
+  </Identity>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>Infinity</Max>
+    <Type>food.grain</Type>
+    <MaxGatherers>0</MaxGatherers>
+    <DiminishingReturns>0.90</DiminishingReturns>
+  </ResourceSupply>
+  <ResourceTrickle>
+    <Rates>
+      <food>10</food>
+    </Rates>
+    <Interval>5000</Interval>
+  </ResourceTrickle>
+  <VisualActor>
+    <Actor>structures/space_colony/greenhouse.xml</Actor>
+  </VisualActor>
+</Entity>

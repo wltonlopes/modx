@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/cooperative/infantry_rifleman_assalt_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/space_colony/rifle_assalt_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

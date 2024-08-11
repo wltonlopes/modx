@@ -1,0 +1,111 @@
+﻿{
+	"Code": "cooperative",
+	"Culture": "human",
+	"Music": [
+		{
+			"File": "dark fallout.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
+		{
+			"Name": "Maya civilization",
+			"Description": "",
+			"Technologies": [
+				{
+					"Name": "",
+					"History": "."
+				},
+				{
+					"Name": " ",
+					"History": "",
+					"Description": "."
+				}
+			],
+			"Heroes": [
+				{
+					"Name": "Yax Ehb' Xok",
+					"Class": "Infantry Hero",
+					"Armament": "Obsidian spear",
+					"Emblem": "",
+					"History": "An ancestor of the Tikal dynasty, probably a real character from the pre-classical age who was later mythologized."
+				},
+				{
+					"Name": "Hu'un B'alam",
+					"Class": "Infantry Hero",
+					"Armament": "Obsidian spear",
+					"Emblem": "",
+					"History": "Mythical ruler of El Mirador from the pre-classical period."
+				},
+				{
+					"Name": "Ix Muluc",
+					"Class": "Hero Queen",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Mythic ruler of Kaminaljyú in pre-classical period."
+				}
+			]
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Monumental Constructions.",
+			"History": "The Maya created great structures of stone and lime of great resistance.",
+			"Description": "Structures +10% health, +20 time and +5% capture points."
+		}
+	],
+	"TeamBonuses": [
+		{
+			"Name": "Sacbe.",
+			"History": "A sacbe, plural sacbeob (Yucatec Maya: singular sakbej, plural sakbejo'ob), or white way, is a raised paved road built by the Maya civilization of pre-Columbian Mesoamerica.Most connect temples, plazas, and groups of structures within ceremonial centers or cities, but some longer roads between cities are also known. The term sacbe is Yucatec Maya for white road; white perhaps because there is evidence that they were originally coated with limestone stucco or plaster, which was over a stone and rubble fill.",
+			"Description": "Allied Land Traders +10% trade gain."
+		}
+	],
+	"Structures": [
+		{
+			"Name": "Big temple of masks",
+			"Class": "SB",
+			"Emblem": "",
+			"History": ".",
+			"Requirements": ".",
+			"Phase": "City",
+			"Special": "."
+		}
+	],
+	"CivChoices":
+	[
+		"civ_choices/cooperative/miltiades",
+		"civ_choices/cooperative/themistocles",
+		"civ_choices/cooperative/aristides",
+		"civ_choices/cooperative/pericles",
+		"civ_choices/cooperative/iphicrates"
+	],
+	"WallSets": [
+		"other/wallset_palisade"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/cooperative/civil_centre"
+		},
+		{
+			"Template": "units/cooperative/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/cooperative/infantry_rifleman_assalt_b",
+			"Count": 4
+		}
+	],
+	"AINames": [
+		"AIname1",
+		"AIname2"	
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/cooperative/infantry_rifleman_assalt_b",
+		"skirmish/units/special_starting_unit": "units/cooperative/support_female_citizen",
+		"skirmish/units/default_infantry_ranged_b": "units/cooperative/infantry_rifleman_assalt_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house",
+		"skirmish/units/default_ship_trireme": "units/cooperative/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

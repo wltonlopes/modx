@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_citizen">
+  <Attack disable=""/>
+  <Builder>
+    <Rate>1.25</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}/outpost
+      structures/{civ}/sentry_tower
+      structures/{civ}/wallset_short
+      structures/{civ}/house
+      structures/{civ}/field
+      structures/{civ}/storehouse
+      structures/{civ}/farmstead
+      structures/{civ}/corral
+      structures/{civ}/dock
+      structures/{civ}/market
+      structures/{civ}/barracks
+      structures/{civ}/range
+      structures/{civ}/stable
+      structures/{civ}/forge
+      structures/{civ}/defense_tower
+      structures/wallset_palisade
+      structures/{civ}/wallset_palisade
+      structures/{civ}/wallset_stone
+      structures/{civ}/arsenal
+      structures/{civ}/fortress
+      structures/{civ}/gaia_roadset
+      structures/{civ}/wonder
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>terr</Civ>
+    <SpecificName>Militar engineer</SpecificName>
+	<Classes datatype="tokens">CivisRomanum</Classes>
+    <Icon>units/space_colony/engineer.png</Icon>
+    <SelectionGroupName>units/{civ}/engineer</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/space_colony/worker.xml</Actor>
+  </VisualActor>
+</Entity>

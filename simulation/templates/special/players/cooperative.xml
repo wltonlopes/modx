@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/terr_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>cooperative</Civ>
+    <GenericName>cooperative Defensive New Eath</GenericName>
+    <History>Coalização de humanos biologiacamente modificados, que residem no sistema solar de Kepler 189552 chamado localmente como sistema
+    solar Fenix, após a queda da união do sistema Solar em 2390 e a grade guerra civil, os residentes locais formaram essa coalizão de diversos
+    gorvenos das mais diferentes formas e culturas para manter a paz entre os Terraqueos locais.</History>
+    <Icon>emblems/emblem_coalition.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/p_attack
+    </Formations>
+  </Player>
+</Entity>

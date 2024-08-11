@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <AutoBuildable>
+    <Rate>0.5</Rate>
+  </AutoBuildable>
+  <BuildRestrictions>
+    <Category>Reactor</Category>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>cooperative</Civ>
+    <SpecificName>Agrós</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>Infinity</Max>
+    <Type>food.grain</Type>
+    <MaxGatherers>0</MaxGatherers>
+    <DiminishingReturns>0.90</DiminishingReturns>
+  </ResourceSupply>
+  <ResourceTrickle>
+    <Rates>
+      <wood>10</wood>
+    </Rates>
+    <Interval>5000</Interval>
+  </ResourceTrickle>
+  <VisualActor>
+    <Actor>structures/space_colony/energy_box.xml</Actor>
+  </VisualActor>
+</Entity>

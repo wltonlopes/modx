@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman">
+<!--     <Capturable>
+    <CapturePoints>25</CapturePoints>
+    <RegenRate>0</RegenRate>
+    <GarrisonRegenRate>0</GarrisonRegenRate>
+  </Capturable> -->
+  <Identity>
+    <Civ>cooperative</Civ>
+    <GenericName>Assault Infantry</GenericName>
+    <SpecificName>Assault Infantry</SpecificName>
+    <SelectionGroupName>units/surv/assault_infantry</SelectionGroupName>
+     <Icon>units/space_colony/guardians.png</Icon>
+  </Identity>
+    <Promotion>
+    <Entity>units/cooperative/infantry_rifleman_assalt_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed>12.0</WalkSpeed>
+    <RunMultiplier>1.67</RunMultiplier>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/space_colony/rifle_assalt_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>
