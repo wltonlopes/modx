@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="energy_box">
+      <mesh>structural/energy_box.dae</mesh>
+       <props>
+        <prop actor="structures/space_colony/energy_box_grass.xml" attachpoint="root"/>
+       </props>
+      <textures>
+        <texture file="structural/energy_box/struct_base.png" name="baseTex"/>
+        <texture file="structural/energy_box/struct_spec.png" name="specTex"/>
+        <texture file="structural/energy_box/struct_normal.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

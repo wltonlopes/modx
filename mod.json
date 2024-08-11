@@ -1,0 +1,8 @@
+{
+	"name": "space_colonies_war",
+	"version": "0.0.0.27",
+	"label": "",
+	"url": "",
+	"description": "description",
+	"dependencies": ["0ad=0.0.27"]
+}

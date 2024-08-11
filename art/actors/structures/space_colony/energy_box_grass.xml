@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="energy_box_glass">
+      <mesh>structural/energy_box_glass.dae</mesh>
+      <textures>
+        <texture file="structural/ligth_orange.png" name="baseTex"/>
+        <texture file="structural/jev_crystal1_spec.dds" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_glow_norm_spec.xml</material>
+</actor>
