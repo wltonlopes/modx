@@ -29,7 +29,7 @@
     </Entities>
   </Builder>
   <Identity>
-    <Civ>terr</Civ>
+    <Civ>cooperative</Civ>
     <SpecificName>Militar engineer</SpecificName>
 	<Classes datatype="tokens">CivisRomanum</Classes>
     <Icon>units/space_colony/engineer.png</Icon>

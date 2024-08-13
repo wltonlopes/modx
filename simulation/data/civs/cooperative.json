@@ -101,9 +101,10 @@
 		"AIname2"	
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/cooperative/infantry_rifleman_assalt_b",
-		"skirmish/units/special_starting_unit": "units/cooperative/support_female_citizen",
+		"skirmish/units/default_cavalry": "units/cooperative/jeep",
+		"skirmish/units/special_starting_unit": "units/cooperative/jeep",
 		"skirmish/units/default_infantry_ranged_b": "units/cooperative/infantry_rifleman_assalt_b",
+		"skirmish/units/default_infantry_melee_b": "units/cooperative/infantry_rifleman_assalt_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house",
 		"skirmish/units/default_ship_trireme": "units/cooperative/ship_bireme"
 	},

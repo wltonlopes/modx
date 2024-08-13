@@ -5,7 +5,7 @@
     <variant frequency="1" name="Terran Bunker">
       <mesh>structural/lights_tecnical_center.dae</mesh>
       <textures>
-        <texture file="structural/jev_crystal1.dds" name="baseTex"/>
+        <texture file="structural/ligth_orange.png" name="baseTex"/>
         <texture file="structural/jev_crystal1_spec.dds" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
 	  </textures>
