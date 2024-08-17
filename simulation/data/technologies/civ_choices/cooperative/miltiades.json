@@ -1,0 +1,23 @@
+{
+	"genericName": "Miltiades the Younger",
+	"description": "Aliance of New Nations.",
+	"icon": "civ_choices/athen_hero_miltiades.png",
+	"tooltip": "Select Miltiades the Younger to lead your civilization.",
+	"modifications": [
+		{
+			"value": "Trainer/Entities/_string",
+			"tokens": "units/{civ}/hero_miltiades_infantry",
+			"affects": "CivilCentre"
+		},
+		{
+			"value": "Trainer/Entities/_string",
+			"tokens": "-units/athen/hero_aristides_infantry -units/athen/hero_themistocles_infantry -units/athen/hero_iphicrates_infantry -units/athen/hero_pericles_infantry",
+			"affects": "Council"
+		},
+		{
+			"value": "Researcher/Technologies/_string",
+			"tokens": "athenians/hero_miltiades_strategos",
+			"affects": "Council"
+		}
+	]
+}

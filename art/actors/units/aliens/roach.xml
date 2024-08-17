@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="roach">
+      <mesh>skeletal/roach.dae</mesh>
+      <animations>
+        <animation file="quadraped/roach_walk.dae" name="run" speed="50"/>
+        <animation file="quadraped/roach_walk.dae" name="Walk" speed="30"/>
+        <animation file="quadraped/roach_idle_1.dae" name="Idle" speed="100"/>
+        <animation file="quadraped/roach_idle_2.dae" name="Idle" speed="100"/>
+        <animation file="quadraped/roach_attack_1.dae" name="attack_ranged" speed="100"/>
+        <animation file="quadraped/roach_attack_2.dae" name="attack_melee" speed="100"/>
+        <animation file="quadraped/roach_death.dae" name="Death" speed="100"/>
+      </animations>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Black">
+    <props>
+
+    </props>
+      <textures>
+        <texture file="skeletal/roach_texture.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

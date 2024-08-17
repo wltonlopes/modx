@@ -20,6 +20,7 @@
   <Identity>
     <GenericName>automatic torret</GenericName>
     <SpecificName></SpecificName>
+    <Icon>units/athen/champion_ranged.png</Icon>
   </Identity>
   <Sound>
     <SoundGroups>
@@ -27,6 +28,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/space_colony/torrets/defense_torreta.xml</Actor>
+    <Actor>structures/space_colony/torrets/torreta_VBL.xml</Actor>
   </VisualActor>
 </Entity>

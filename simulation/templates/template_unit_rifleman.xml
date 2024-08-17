@@ -47,6 +47,7 @@
 	  male
 	</Phenotype>
   </Identity>
+  <ResourceGatherer disable=""/>
   <Sound>
     <SoundGroups>
       <attack_slaughter>attack/weapon/knife_attack.xml</attack_slaughter>

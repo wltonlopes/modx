@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman">
+  <Attack>
+    <Ranged>
+      <AttackName>Rifler</AttackName>
+      <Damage>
+        <Pierce>40.0</Pierce>
+      </Damage>
+      <MaxRange>40</MaxRange>
+      <PrepareTime>700</PrepareTime>
+      <RepeatTime>800</RepeatTime>
+      <Projectile>
+        <Speed>60</Speed>
+        <Spread>2.5</Spread>
+        <Gravity>10</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>7</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>40</wood>
+      <stone>5</stone>
+      <metal>10</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Infantry</GenericName>
+    <SelectionGroupName>units/surv/rifle</SelectionGroupName>
+    <Classes datatype="tokens">Human CitizenSoldier</Classes>
+    <VisibleClasses datatype="tokens">Citizen Worker Soldier Infantry</VisibleClasses>
+    <Rank>Basic</Rank>
+  <Phenotype datatype="tokens">
+	  female
+	  male
+	</Phenotype>
+  </Identity>
+   <UnitMotion>
+    <WalkSpeed>12.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+</Entity>

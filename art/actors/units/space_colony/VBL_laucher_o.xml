@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="house">
+      <mesh>structural/VBL_laucher_o.dae</mesh>
+      <props>
+        <prop actor="props/units/siege_artillery/stone_projectile_large_flaming.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_large.xml" attachpoint="loaded-projectile"/> 
+      </props>
+      <textures>
+        <texture file="structural/veh_mili_struct.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+        <!-- <texture file="structural/ao/spart_barracks.png" name="aoTex"/> -->
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

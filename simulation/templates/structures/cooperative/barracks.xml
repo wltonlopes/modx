@@ -15,9 +15,9 @@
   </Obstruction>
  <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/siege_lithobolos_packed
+      units/{civ}/infantry_rifleman_snipe_b
       units/{civ}/infantry_rifleman_assalt_b
-      units/{civ}/infantry_swordsman
+      units/{civ}/infantry_rifleman_anti_veh_b
       units/{civ}/suport_fly
     </Entities>
   </Trainer>

@@ -94,6 +94,10 @@
 		{
 			"Template": "units/cooperative/infantry_rifleman_assalt_b",
 			"Count": 4
+		},
+		{
+			"Template": "units/cooperative/jeep",
+			"Count": 2
 		}
 	],
 	"AINames": [
