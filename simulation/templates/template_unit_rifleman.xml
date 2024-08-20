@@ -50,6 +50,7 @@
   <ResourceGatherer disable=""/>
   <Sound>
     <SoundGroups>
+      <attack_ranged>attack/weapon/rifle_attack.xml</attack_ranged>
       <attack_slaughter>attack/weapon/knife_attack.xml</attack_slaughter>
       <order_attack>voice/{lang}/civ/civ_{phenotype}_attack.xml</order_attack>
       <order_attack_move>voice/{lang}/civ/civ_{phenotype}_attack.xml</order_attack_move>

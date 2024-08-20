@@ -1,0 +1,2791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>stormy</SkySet>
+		<SunColor r="1" g="1" b="0.858824"/>
+		<SunElevation angle="0.18623"/>
+		<SunRotation angle="1.78253"/>
+		<AmbientColor r="0.776471" g="1" b="1"/>
+		<Fog>
+			<FogFactor>0.00498047</FogFactor>
+			<FogThickness>0.201172</FogThickness>
+			<FogColor r="1" g="1" b="1"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>43.3009</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>-0.291016</Brightness>
+			<Contrast>1.04883</Contrast>
+			<Saturation>0.349609</Saturation>
+			<Bloom>0.2</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="584.949" y="67.8661" z="690.873"/>
+		<Rotation angle="0.958368"/>
+		<Declination angle="0.168942"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "ice lune",
+  "PlayerData": [
+    null,
+    {},
+    {}
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>actor|props/special/eyecandy/iceberg.xml</Template>
+			<Position x="507.7995" z="614.12363"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42123"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="510.74286" z="603.56916"/>
+			<Orientation y="0.94733"/>
+			<Actor seed="64874"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="518.65589" z="608.61005"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29405"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="511.3271" z="586.74473"/>
+			<Orientation y="1.18572"/>
+			<Actor seed="29405"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="526.69889" z="601.2074"/>
+			<Orientation y="3.0277"/>
+			<Actor seed="40597"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="521.55729" z="585.19953"/>
+			<Orientation y="1.75087"/>
+			<Actor seed="16738"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="530.32969" z="587.98206"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16738"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="514.809" z="588.88563"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16738"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="530.72217" z="598.94272"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45427"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="498.6656" z="598.94272"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54510"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="575.01496" z="609.67289"/>
+			<Orientation y="-2.35788"/>
+			<Actor seed="15901"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="581.36756" z="597.19693"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6628"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="565.02884" z="562.33509"/>
+			<Orientation y="-2.29609"/>
+			<Actor seed="24118"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="613.90287" z="579.5445"/>
+			<Orientation y="-2.12827"/>
+			<Actor seed="51600"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="559.42072" z="686.15049"/>
+			<Orientation y="-2.94162"/>
+			<Actor seed="13590"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="309.64896" z="456.95777"/>
+			<Orientation y="1.02118"/>
+			<Actor seed="21107"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="329.05411" z="461.87049"/>
+			<Orientation y="0.56995"/>
+			<Actor seed="21197"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="326.0977" z="465.18061"/>
+			<Orientation y="0.37401"/>
+			<Actor seed="47101"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="323.86493" z="468.77628"/>
+			<Orientation y="0.58852"/>
+			<Actor seed="11692"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="322.11622" z="471.8313"/>
+			<Orientation y="0.78626"/>
+			<Actor seed="55683"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="311.16987" z="477.50437"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54342"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="306.3744" z="476.33088"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61118"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="301.5341" z="473.40116"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27466"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="296.63569" z="470.56241"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27466"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="308.60734" z="479.93406"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33455"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="305.0962" z="478.62693"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18687"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="301.45566" z="476.53013"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64101"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="297.74701" z="474.96683"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48961"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="308.72434" z="476.55466"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35048"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="321.96976" z="444.60785"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42019"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="319.31012" z="442.94056"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52711"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="324.86976" z="446.64997"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52711"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="324.85788" z="442.8177"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5028"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="321.83127" z="440.92792"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49987"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="317.52106" z="440.87702"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="627"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="319.09485" z="437.00702"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60082"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="337.47574" z="448.38678"/>
+			<Orientation y="0.91301"/>
+			<Actor seed="15872"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="1240.63697" z="970.9491"/>
+			<Orientation y="4.19968"/>
+			<Actor seed="21107"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="1221.06373" z="966.7558"/>
+			<Orientation y="3.74845"/>
+			<Actor seed="21197"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="1223.896" z="963.33893"/>
+			<Orientation y="3.55251"/>
+			<Actor seed="47101"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="1225.99463" z="959.66327"/>
+			<Orientation y="3.76702"/>
+			<Actor seed="11692"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="1227.6294" z="956.54572"/>
+			<Orientation y="3.96476"/>
+			<Actor seed="55683"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1238.3589" z="950.47272"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="54342"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1243.19434" z="951.46833"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="61118"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1248.13941" z="954.21735"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="27466"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1253.13941" z="956.87348"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="27466"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1240.83008" z="947.95014"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="33455"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1244.3871" z="949.12665"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="18687"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1248.10254" z="951.08777"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="64101"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1251.86622" z="952.51301"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="48961"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="1240.8379" z="951.33143"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="35048"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="1228.78028" z="983.74524"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="42019"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="1231.49976" z="985.3133"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="52711"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="1225.80701" z="981.81147"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="52711"/>
+		</Entity>
+		<Entity uid="66">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="1225.96021" z="985.64087"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="5028"/>
+		</Entity>
+		<Entity uid="67">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="1229.05457" z="987.41767"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="49987"/>
+		</Entity>
+		<Entity uid="68">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="1233.36365" z="987.30945"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="627"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="1231.93384" z="991.23481"/>
+			<Orientation y="5.53472"/>
+			<Actor seed="60082"/>
+		</Entity>
+		<Entity uid="70">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>2</Player>
+			<Position x="1213.14551" z="980.5412"/>
+			<Orientation y="4.09151"/>
+			<Actor seed="15872"/>
+		</Entity>
+		<Entity uid="72">
+			<Template>actor|units/stellaris/drone_disco.xml</Template>
+			<Position x="741.31537" z="1050.6327"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25409"/>
+		</Entity>
+		<Entity uid="73">
+			<Template>actor|props/special/eyecandy/iceberg.xml</Template>
+			<Position x="749.85572" z="1044.43787"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25472"/>
+		</Entity>
+		<Entity uid="74">
+			<Template>actor|props/special/eyecandy/iceberg.xml</Template>
+			<Position x="740.63111" z="1040.26587"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52937"/>
+		</Entity>
+		<Entity uid="75">
+			<Template>actor|props/special/eyecandy/iceberg.xml</Template>
+			<Position x="754.35938" z="1050.42432"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64221"/>
+		</Entity>
+		<Entity uid="76">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="751.12513" z="958.97327"/>
+			<Orientation y="-0.47881"/>
+			<Actor seed="65442"/>
+		</Entity>
+		<Entity uid="77">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="736.20136" z="961.45508"/>
+			<Orientation y="-2.15053"/>
+			<Actor seed="62951"/>
+		</Entity>
+		<Entity uid="78">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="744.39344" z="929.3371"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56284"/>
+		</Entity>
+		<Entity uid="79">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1210.53089" z="733.67634"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55072"/>
+		</Entity>
+		<Entity uid="80">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1241.01844" z="715.69697"/>
+			<Orientation y="-1.6254"/>
+			<Actor seed="54522"/>
+		</Entity>
+		<Entity uid="81">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1200.4668" z="705.36866"/>
+			<Orientation y="0.39274"/>
+			<Actor seed="34975"/>
+		</Entity>
+		<Entity uid="82">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="397.69636" z="762.71613"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14031"/>
+		</Entity>
+		<Entity uid="83">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="384.42814" z="721.54218"/>
+			<Orientation y="0.61525"/>
+			<Actor seed="34671"/>
+		</Entity>
+		<Entity uid="84">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="410.26032" z="706.86567"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4380"/>
+		</Entity>
+		<Entity uid="85">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="422.95063" z="724.20759"/>
+			<Orientation y="-1.78588"/>
+			<Actor seed="10200"/>
+		</Entity>
+		<Entity uid="86">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="581.38605" z="471.31351"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44087"/>
+		</Entity>
+		<Entity uid="87">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="567.90674" z="490.84281"/>
+			<Orientation y="0.29557"/>
+			<Actor seed="27209"/>
+		</Entity>
+		<Entity uid="88">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="777.03187" z="457.79963"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23209"/>
+		</Entity>
+		<Entity uid="89">
+			<Template>gaia/ore/polar_01</Template>
+			<Player>1</Player>
+			<Position x="798.73328" z="438.05314"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63138"/>
+		</Entity>
+		<Entity uid="90">
+			<Template>gaia/ore/polar_02</Template>
+			<Player>1</Player>
+			<Position x="809.25104" z="452.90928"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27386"/>
+		</Entity>
+		<Entity uid="91">
+			<Template>gaia/ore/polar_02</Template>
+			<Player>1</Player>
+			<Position x="769.59754" z="1197.51026"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22868"/>
+		</Entity>
+		<Entity uid="92">
+			<Template>gaia/ore/polar_02</Template>
+			<Player>1</Player>
+			<Position x="788.04688" z="1192.13306"/>
+			<Orientation y="1.84704"/>
+			<Actor seed="13764"/>
+		</Entity>
+		<Entity uid="93">
+			<Template>gaia/ore/polar_02</Template>
+			<Player>1</Player>
+			<Position x="780.84711" z="1170.85376"/>
+			<Orientation y="0.07435"/>
+			<Actor seed="22864"/>
+		</Entity>
+		<Entity uid="94">
+			<Template>gaia/ore/polar_02</Template>
+			<Player>1</Player>
+			<Position x="990.88581" z="1121.32032"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2592"/>
+		</Entity>
+		<Entity uid="95">
+			<Template>gaia/ore/polar_02</Template>
+			<Player>1</Player>
+			<Position x="992.57068" z="1094.05774"/>
+			<Orientation y="0.52108"/>
+			<Actor seed="58104"/>
+		</Entity>
+		<Entity uid="96">
+			<Template>gaia/ore/polar_02</Template>
+			<Player>1</Player>
+			<Position x="1019.23755" z="1091.49476"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5813"/>
+		</Entity>
+		<Entity uid="97">
+			<Template>gaia/ore/polar_02</Template>
+			<Player>1</Player>
+			<Position x="1016.11261" z="1113.54322"/>
+			<Orientation y="1.32581"/>
+			<Actor seed="21581"/>
+		</Entity>
+		<Entity uid="98">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="986.28437" z="1107.61182"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25132"/>
+		</Entity>
+		<Entity uid="99">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="790.71692" z="1177.6797"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56886"/>
+		</Entity>
+		<Entity uid="100">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="762.38032" z="1176.7367"/>
+			<Orientation y="0.64425"/>
+			<Actor seed="39812"/>
+		</Entity>
+		<Entity uid="101">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="757.14258" z="1188.91443"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46049"/>
+		</Entity>
+		<Entity uid="102">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="861.56641" z="821.5741"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2380"/>
+		</Entity>
+		<Entity uid="103">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="865.98053" z="795.58509"/>
+			<Orientation y="-0.52953"/>
+			<Actor seed="62669"/>
+		</Entity>
+		<Entity uid="104">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="851.78388" z="801.34308"/>
+			<Orientation y="0.48873"/>
+			<Actor seed="5037"/>
+		</Entity>
+		<Entity uid="105">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1055.77955" z="846.1548"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51791"/>
+		</Entity>
+		<Entity uid="106">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1022.70826" z="847.1678"/>
+			<Orientation y="0.95928"/>
+			<Actor seed="23155"/>
+		</Entity>
+		<Entity uid="107">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1036.88318" z="828.14893"/>
+			<Orientation y="0.06528"/>
+			<Actor seed="62542"/>
+		</Entity>
+		<Entity uid="108">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1061.22486" z="825.72663"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36949"/>
+		</Entity>
+		<Entity uid="109">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="380.0984" z="740.78602"/>
+			<Orientation y="0.86207"/>
+			<Actor seed="58663"/>
+		</Entity>
+		<Entity uid="110">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="668.86622" z="730.62342"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62476"/>
+		</Entity>
+		<Entity uid="111">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="690.72712" z="697.30103"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51506"/>
+		</Entity>
+		<Entity uid="112">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="670.84485" z="702.32721"/>
+			<Orientation y="0.85106"/>
+			<Actor seed="58227"/>
+		</Entity>
+		<Entity uid="113">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="699.60724" z="715.87519"/>
+			<Orientation y="1.35943"/>
+			<Actor seed="15937"/>
+		</Entity>
+		<Entity uid="114">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="663.93677" z="715.3061"/>
+			<Orientation y="1.11254"/>
+			<Actor seed="27523"/>
+		</Entity>
+		<Entity uid="115">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="582.16388" z="485.7642"/>
+			<Orientation y="0.88253"/>
+			<Actor seed="40858"/>
+		</Entity>
+		<Entity uid="116">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="548.95563" z="474.6204"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63789"/>
+		</Entity>
+		<Entity uid="117">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="790.66016" z="462.45136"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17953"/>
+		</Entity>
+		<Entity uid="118">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="784.91211" z="438.48642"/>
+			<Orientation y="0.57193"/>
+			<Actor seed="59701"/>
+		</Entity>
+		<Entity uid="119">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1050.6161" z="454.63245"/>
+			<Orientation y="0.5906"/>
+			<Actor seed="7678"/>
+		</Entity>
+		<Entity uid="120">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1038.87964" z="457.31952"/>
+			<Orientation y="-2.2054"/>
+			<Actor seed="34276"/>
+		</Entity>
+		<Entity uid="121">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1021.27619" z="429.25379"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38614"/>
+		</Entity>
+		<Entity uid="122">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1200.57984" z="722.14039"/>
+			<Orientation y="0.66715"/>
+			<Actor seed="1958"/>
+		</Entity>
+		<Entity uid="123">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1225.10364" z="706.3523"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59645"/>
+		</Entity>
+		<Entity uid="124">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1212.85047" z="700.52405"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52126"/>
+		</Entity>
+		<Entity uid="125">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1238.07398" z="723.1814"/>
+			<Orientation y="0.57844"/>
+			<Actor seed="47723"/>
+		</Entity>
+		<Entity uid="126">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="1038.81629" z="853.9983"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22002"/>
+		</Entity>
+		<Entity uid="127">
+			<Template>gaia/rock/polar_01</Template>
+			<Player>1</Player>
+			<Position x="760.11408" z="943.19617"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51288"/>
+		</Entity>
+		<Entity uid="128">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="772.12787" z="933.5182"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="129">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="765.17566" z="927.51752"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="130">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="770.49183" z="929.50947"/>
+			<Orientation y="1.69552"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="131">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="777.41236" z="932.46528"/>
+			<Orientation y="-2.12008"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="132">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="772.68006" z="938.85474"/>
+			<Orientation y="1.55076"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="133">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="782.69758" z="936.42255"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="134">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="779.84485" z="940.65833"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="135">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="778.92017" z="922.09406"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="136">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="773.21363" z="928.94007"/>
+			<Orientation y="0.16523"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="137">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="770.64484" z="918.41053"/>
+			<Orientation y="0.73775"/>
+			<Actor seed="32049"/>
+		</Entity>
+		<Entity uid="138">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1222.69288" z="649.25287"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="139">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1215.74073" z="643.2522"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="140">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1221.0569" z="645.24415"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="141">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1227.9773" z="648.19996"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="142">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1223.24512" z="654.58942"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="143">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="1233.26258" z="652.15723"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="144">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1230.40992" z="656.39301"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="145">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1229.48511" z="637.82874"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="146">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1223.77857" z="644.67475"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="147">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="680.42048" z="1385.44397"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="148">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="673.46827" z="1379.44336"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="149">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="678.78443" z="1381.43531"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="150">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="685.70496" z="1384.39112"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="151">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="680.97266" z="1390.78052"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="152">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="690.99018" z="1388.3484"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="153">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="688.13746" z="1392.58411"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="154">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="687.21277" z="1374.01978"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="155">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="681.50623" z="1380.86585"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="156">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="237.90302" z="960.24122"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="157">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="230.95081" z="954.24054"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="158">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="236.26697" z="956.23249"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="159">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="243.1875" z="959.1883"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="160">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="238.45521" z="965.57776"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="161">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="248.47272" z="963.14557"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="162">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="245.62" z="967.38135"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="163">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="244.69532" z="948.81708"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="164">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="238.98877" z="955.6631"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="165">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="665.99183" z="124.49213"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="166">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="659.03962" z="118.49146"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="167">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="664.35578" z="120.4834"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="168">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="671.27631" z="123.43921"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="169">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="666.54401" z="129.82868"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="170">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="676.56153" z="127.39649"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="171">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="673.70881" z="131.63227"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="172">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="672.78412" z="113.068"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="173">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="667.07758" z="119.91401"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="174">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1159.43384" z="185.83387"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="175">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1152.4817" z="179.8332"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="176">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1157.79786" z="181.82514"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="177">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1164.71827" z="184.78095"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="178">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1159.98609" z="191.17042"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="179">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="1170.00355" z="188.73823"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="180">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1167.15088" z="192.974"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="181">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1166.22608" z="174.40973"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="182">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1160.51954" z="181.25574"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="183">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="389.50892" z="1369.23365"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="184">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="382.55671" z="1363.23292"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="185">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="387.87287" z="1365.22486"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="186">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="394.7934" z="1368.18067"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="187">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="390.0611" z="1374.5702"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="188">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="400.07862" z="1372.13794"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="189">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="397.2259" z="1376.37378"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="190">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="396.30121" z="1357.80958"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="191">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="390.59467" z="1364.65552"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="192">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1106.94556" z="1369.13917"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="193">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1099.99341" z="1363.13843"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="194">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1105.30958" z="1365.13038"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="195">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1112.22999" z="1368.08619"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="196">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1107.49781" z="1374.47571"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="197">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="1117.51526" z="1372.04346"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="198">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1114.6626" z="1376.2793"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="199">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1113.7378" z="1357.7151"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="200">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1108.03125" z="1364.56104"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="201">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1436.68311" z="575.56928"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="202">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1429.73096" z="569.56861"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="203">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1435.04712" z="571.56055"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="204">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1441.96753" z="574.51636"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="205">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1437.23536" z="580.90583"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="206">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="1447.25281" z="578.47364"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="207">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1444.40015" z="582.70942"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="208">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1443.47535" z="564.14515"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="209">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1437.7688" z="570.99115"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="210">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="85.94703" z="757.10181"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="211">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="78.99482" z="751.10114"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="212">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="84.31098" z="753.09308"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="213">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="91.23151" z="756.0489"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="214">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="86.49921" z="762.43836"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="215">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="96.51673" z="760.00617"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="216">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="93.66401" z="764.24195"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="217">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="92.73932" z="745.67768"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="218">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="87.03278" z="752.52369"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="219">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1017.92701" z="603.40113"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="220">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1010.9748" z="597.40046"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="221">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1016.29096" z="599.3924"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="222">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1023.2115" z="602.34821"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="223">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="1018.4792" z="608.73768"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="224">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="1028.49671" z="606.30549"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="225">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1025.64405" z="610.54126"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="226">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1024.71924" z="591.977"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="227">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="1019.01276" z="598.823"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="228">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="779.53089" z="743.47754"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="229">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="772.57868" z="737.47687"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="230">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="777.89484" z="739.46882"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="231">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="784.81537" z="742.42463"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="232">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="780.08307" z="748.8141"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="233">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="790.1006" z="746.3819"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="234">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="787.24787" z="750.61768"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="235">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="786.32319" z="732.05341"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="236">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="780.61664" z="738.89942"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="237">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="791.38263" z="498.94996"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="238">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="784.43042" z="492.94928"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="239">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="789.74659" z="494.94123"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="240">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="796.66712" z="497.89704"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="241">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="791.93482" z="504.2865"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="242">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="801.95234" z="501.85431"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="243">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="799.09961" z="506.0901"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="244">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="798.17493" z="487.52582"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="245">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="792.46839" z="494.37183"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="246">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="593.05884" z="724.18091"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="247">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="586.10663" z="718.18024"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="248">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="591.4228" z="720.17219"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="249">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="598.34333" z="723.128"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="250">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="593.61103" z="729.51746"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="251">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="603.62855" z="727.08527"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="252">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="600.77582" z="731.32105"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="253">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="599.85114" z="712.75678"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="254">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="594.1446" z="719.60279"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="255">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="969.42109" z="909.19727"/>
+			<Orientation y="0.87354"/>
+			<Actor seed="55385"/>
+		</Entity>
+		<Entity uid="256">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="962.46888" z="903.1966"/>
+			<Orientation y="0.7347"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="257">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="967.78504" z="905.18854"/>
+			<Orientation y="1.69553"/>
+			<Actor seed="51475"/>
+		</Entity>
+		<Entity uid="258">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="974.70557" z="908.14435"/>
+			<Orientation y="-2.1201"/>
+			<Actor seed="48459"/>
+		</Entity>
+		<Entity uid="259">
+			<Template>units/aliens/alien_roach_fire</Template>
+			<Player>0</Player>
+			<Position x="969.97327" z="914.53382"/>
+			<Orientation y="1.55077"/>
+			<Actor seed="785"/>
+		</Entity>
+		<Entity uid="260">
+			<Template>units/aliens/alien_roach_range_b</Template>
+			<Player>0</Player>
+			<Position x="979.99079" z="912.10163"/>
+			<Orientation y="-1.33646"/>
+			<Actor seed="6539"/>
+		</Entity>
+		<Entity uid="261">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="977.13807" z="916.33741"/>
+			<Orientation y="1.77387"/>
+			<Actor seed="11033"/>
+		</Entity>
+		<Entity uid="262">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="976.21338" z="897.77314"/>
+			<Orientation y="0.51981"/>
+			<Actor seed="8483"/>
+		</Entity>
+		<Entity uid="263">
+			<Template>units/aliens/alien_roach_warrior_b</Template>
+			<Player>0</Player>
+			<Position x="970.50684" z="904.61915"/>
+			<Orientation y="0.16524"/>
+			<Actor seed="15963"/>
+		</Entity>
+		<Entity uid="264">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1091.14563" z="1169.94434"/>
+			<Orientation y="1.89286"/>
+			<Actor seed="36180"/>
+		</Entity>
+		<Entity uid="265">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1040.48584" z="1191.75806"/>
+			<Orientation y="3.04914"/>
+			<Actor seed="17253"/>
+		</Entity>
+		<Entity uid="266">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1383.1891" z="622.77186"/>
+			<Orientation y="2.2429"/>
+			<Actor seed="60219"/>
+		</Entity>
+		<Entity uid="267">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1366.61695" z="620.45533"/>
+			<Orientation y="1.35653"/>
+			<Actor seed="15408"/>
+		</Entity>
+		<Entity uid="268">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1371.14441" z="626.4806"/>
+			<Orientation y="0.74218"/>
+			<Actor seed="8018"/>
+		</Entity>
+		<Entity uid="269">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1374.03516" z="630.6067"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8018"/>
+		</Entity>
+		<Entity uid="270">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1380.78174" z="634.71052"/>
+			<Orientation y="-2.35428"/>
+			<Actor seed="57533"/>
+		</Entity>
+		<Entity uid="271">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1178.62952" z="291.7173"/>
+			<Orientation y="1.2104"/>
+			<Actor seed="7524"/>
+		</Entity>
+		<Entity uid="272">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1189.10755" z="303.41416"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="862"/>
+		</Entity>
+		<Entity uid="273">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="794.30909" z="247.1883"/>
+			<Orientation y="-0.50651"/>
+			<Actor seed="60758"/>
+		</Entity>
+		<Entity uid="274">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="849.91608" z="106.0727"/>
+			<Orientation y="-0.34685"/>
+			<Actor seed="7980"/>
+		</Entity>
+		<Entity uid="275">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="856.19593" z="154.7483"/>
+			<Orientation y="2.3538"/>
+			<Actor seed="57337"/>
+		</Entity>
+		<Entity uid="276">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="247.21473" z="1113.46497"/>
+			<Orientation y="-1.22605"/>
+			<Actor seed="57337"/>
+		</Entity>
+		<Entity uid="277">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="472.04981" z="220.32758"/>
+			<Orientation y="-2.2018"/>
+			<Actor seed="29917"/>
+		</Entity>
+		<Entity uid="278">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="220.54609" z="297.28376"/>
+			<Orientation y="-0.4336"/>
+			<Actor seed="24706"/>
+		</Entity>
+		<Entity uid="279">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="180.0976" z="331.28595"/>
+			<Orientation y="-0.45649"/>
+			<Actor seed="10670"/>
+		</Entity>
+		<Entity uid="280">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="517.05903" z="1385.61768"/>
+			<Orientation y="2.15946"/>
+			<Actor seed="10670"/>
+		</Entity>
+		<Entity uid="281">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="526.01172" z="1298.6211"/>
+			<Orientation y="0.97402"/>
+			<Actor seed="59027"/>
+		</Entity>
+		<Entity uid="282">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="795.87671" z="1477.13501"/>
+			<Orientation y="2.41503"/>
+			<Actor seed="59027"/>
+		</Entity>
+		<Entity uid="283">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="803.51038" z="1460.64661"/>
+			<Orientation y="-0.69362"/>
+			<Actor seed="49094"/>
+		</Entity>
+		<Entity uid="284">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="804.84925" z="1472.64295"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60872"/>
+		</Entity>
+		<Entity uid="285">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="817.4126" z="1497.04981"/>
+			<Orientation y="2.49437"/>
+			<Actor seed="60872"/>
+		</Entity>
+		<Entity uid="286">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="829.73108" z="1472.45301"/>
+			<Orientation y="-0.76694"/>
+			<Actor seed="8241"/>
+		</Entity>
+		<Entity uid="287">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="838.58021" z="1486.93836"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11074"/>
+		</Entity>
+		<Entity uid="288">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1034.8357" z="1369.62269"/>
+			<Orientation y="2.0775"/>
+			<Actor seed="13948"/>
+		</Entity>
+		<Entity uid="289">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1017.22205" z="1367.17396"/>
+			<Orientation y="1.54323"/>
+			<Actor seed="22597"/>
+		</Entity>
+		<Entity uid="290">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1040.72913" z="1374.06971"/>
+			<Orientation y="-2.23267"/>
+			<Actor seed="60707"/>
+		</Entity>
+		<Entity uid="291">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1032.88965" z="1358.72681"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65286"/>
+		</Entity>
+		<Entity uid="292">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1028.82984" z="1351.94336"/>
+			<Orientation y="-1.10058"/>
+			<Actor seed="59975"/>
+		</Entity>
+		<Entity uid="293">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="999.26423" z="1431.35621"/>
+			<Orientation y="-1.20838"/>
+			<Actor seed="41936"/>
+		</Entity>
+		<Entity uid="294">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="970.60596" z="1425.47071"/>
+			<Orientation y="1.14032"/>
+			<Actor seed="9359"/>
+		</Entity>
+		<Entity uid="295">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="873.24854" z="1241.71375"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9359"/>
+		</Entity>
+		<Entity uid="296">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="860.54432" z="978.42945"/>
+			<Orientation y="2.56206"/>
+			<Actor seed="62947"/>
+		</Entity>
+		<Entity uid="297">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="620.40601" z="914.58216"/>
+			<Orientation y="-1.42638"/>
+			<Actor seed="35921"/>
+		</Entity>
+		<Entity uid="298">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="535.15546" z="802.61707"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48393"/>
+		</Entity>
+		<Entity uid="299">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1095.75013" z="604.16852"/>
+			<Orientation y="-0.98522"/>
+			<Actor seed="61659"/>
+		</Entity>
+		<Entity uid="300">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="956.5669" z="436.58976"/>
+			<Orientation y="-1.93415"/>
+			<Actor seed="33448"/>
+		</Entity>
+		<Entity uid="301">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="935.14808" z="448.39625"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12266"/>
+		</Entity>
+		<Entity uid="302">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="937.67847" z="420.55353"/>
+			<Orientation y="0.07622"/>
+			<Actor seed="48635"/>
+		</Entity>
+		<Entity uid="303">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1271.68531" z="482.24375"/>
+			<Orientation y="-1.72614"/>
+			<Actor seed="35955"/>
+		</Entity>
+		<Entity uid="304">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1358.47584" z="445.86945"/>
+			<Orientation y="-2.61928"/>
+			<Actor seed="50656"/>
+		</Entity>
+		<Entity uid="305">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1351.40076" z="384.67777"/>
+			<Orientation y="-2.82949"/>
+			<Actor seed="24603"/>
+		</Entity>
+		<Entity uid="306">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1353.62134" z="327.52537"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58166"/>
+		</Entity>
+		<Entity uid="307">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1401.38721" z="935.92334"/>
+			<Orientation y="-1.85383"/>
+			<Actor seed="58166"/>
+		</Entity>
+		<Entity uid="308">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1427.63648" z="1057.94678"/>
+			<Orientation y="-2.98711"/>
+			<Actor seed="25501"/>
+		</Entity>
+		<Entity uid="309">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1386.73694" z="943.57728"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60880"/>
+		</Entity>
+		<Entity uid="310">
+			<Template>actor|props/special/eyecandy/ground_ice_decal.xml</Template>
+			<Position x="1386.71204" z="927.5719"/>
+			<Orientation y="0.2793"/>
+			<Actor seed="50271"/>
+		</Entity>
+		<Entity uid="311">
+			<Template>actor|geology/snow1.xml</Template>
+			<Position x="1072.4524" z="843.70331"/>
+			<Orientation y="1.52474"/>
+			<Actor seed="46696"/>
+		</Entity>
+		<Entity uid="312">
+			<Template>actor|geology/snow1.xml</Template>
+			<Position x="1086.48548" z="838.73261"/>
+			<Orientation y="1.66422"/>
+			<Actor seed="38285"/>
+		</Entity>
+		<Entity uid="313">
+			<Template>actor|geology/snow1.xml</Template>
+			<Position x="1123.7815" z="843.45698"/>
+			<Orientation y="-3.10676"/>
+			<Actor seed="41354"/>
+		</Entity>
+		<Entity uid="328">
+			<Template>actor|geology/stone_desert_badlands_furrowed.xml</Template>
+			<Position x="742.10828" z="930.0705"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48718"/>
+		</Entity>
+		<Entity uid="329">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="682.14258" z="643.46583"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8305"/>
+		</Entity>
+		<Entity uid="330">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="686.253" z="625.19117"/>
+			<Orientation y="-0.99694"/>
+			<Actor seed="562"/>
+		</Entity>
+		<Entity uid="331">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="643.61762" z="662.81843"/>
+			<Orientation y="1.88611"/>
+			<Actor seed="48273"/>
+		</Entity>
+		<Entity uid="332">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="688.40577" z="646.92542"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48273"/>
+		</Entity>
+		<Entity uid="333">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="647.89277" z="1062.7168"/>
+			<Orientation y="-0.75113"/>
+			<Actor seed="48273"/>
+		</Entity>
+		<Entity uid="334">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="588.24738" z="1179.32166"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28937"/>
+		</Entity>
+		<Entity uid="335">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="852.22803" z="1147.28467"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28937"/>
+		</Entity>
+		<Entity uid="336">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="931.81788" z="1138.54859"/>
+			<Orientation y="-1.61065"/>
+			<Actor seed="28937"/>
+		</Entity>
+		<Entity uid="337">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="695.24122" z="1181.21521"/>
+			<Orientation y="-1.17981"/>
+			<Actor seed="28937"/>
+		</Entity>
+		<Entity uid="338">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="554.64875" z="1181.01221"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2151"/>
+		</Entity>
+		<Entity uid="339">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="262.25431" z="1069.49903"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7780"/>
+		</Entity>
+		<Entity uid="340">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="278.63321" z="1004.175"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7780"/>
+		</Entity>
+		<Entity uid="341">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="261.75254" z="998.34388"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7780"/>
+		</Entity>
+		<Entity uid="342">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="129.6738" z="592.78595"/>
+			<Orientation y="2.68706"/>
+			<Actor seed="48577"/>
+		</Entity>
+		<Entity uid="343">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="194.19327" z="480.3454"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61396"/>
+		</Entity>
+		<Entity uid="344">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="171.13749" z="457.06754"/>
+			<Orientation y="3.0697"/>
+			<Actor seed="12738"/>
+		</Entity>
+		<Entity uid="345">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="170.73588" z="347.76313"/>
+			<Orientation y="2.13826"/>
+			<Actor seed="12738"/>
+		</Entity>
+		<Entity uid="346">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="227.56788" z="316.52652"/>
+			<Orientation y="2.62786"/>
+			<Actor seed="62248"/>
+		</Entity>
+		<Entity uid="347">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="250.92896" z="280.17682"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62248"/>
+		</Entity>
+		<Entity uid="348">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="661.88099" z="177.93589"/>
+			<Orientation y="-1.04181"/>
+			<Actor seed="62248"/>
+		</Entity>
+		<Entity uid="349">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="578.96753" z="270.44709"/>
+			<Orientation y="2.39109"/>
+			<Actor seed="28061"/>
+		</Entity>
+		<Entity uid="350">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="711.08008" z="232.07935"/>
+			<Orientation y="-1.23165"/>
+			<Actor seed="28061"/>
+		</Entity>
+		<Entity uid="351">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="681.1073" z="261.16581"/>
+			<Orientation y="-2.28368"/>
+			<Actor seed="28061"/>
+		</Entity>
+		<Entity uid="352">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="587.03663" z="222.76703"/>
+			<Orientation y="1.06307"/>
+			<Actor seed="7367"/>
+		</Entity>
+		<Entity uid="353">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="657.25025" z="270.30896"/>
+			<Orientation y="-1.09252"/>
+			<Actor seed="7367"/>
+		</Entity>
+		<Entity uid="354">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1139.60315" z="271.887"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7367"/>
+		</Entity>
+		<Entity uid="355">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1265.30298" z="290.84104"/>
+			<Orientation y="-1.17136"/>
+			<Actor seed="24570"/>
+		</Entity>
+		<Entity uid="356">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1135.03858" z="260.05304"/>
+			<Orientation y="-2.5033"/>
+			<Actor seed="24570"/>
+		</Entity>
+		<Entity uid="357">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1039.20533" z="229.13556"/>
+			<Orientation y="0.64914"/>
+			<Actor seed="33076"/>
+		</Entity>
+		<Entity uid="358">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1177.93604" z="323.9506"/>
+			<Orientation y="0.79691"/>
+			<Actor seed="33076"/>
+		</Entity>
+		<Entity uid="359">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1268.58448" z="536.3075"/>
+			<Orientation y="-2.38884"/>
+			<Actor seed="33076"/>
+		</Entity>
+		<Entity uid="360">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1324.91004" z="1382.90625"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33076"/>
+		</Entity>
+		<Entity uid="361">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1144.42798" z="1225.03101"/>
+			<Orientation y="-2.6678"/>
+			<Actor seed="17860"/>
+		</Entity>
+		<Entity uid="362">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1294.21546" z="1060.15943"/>
+			<Orientation y="-1.75258"/>
+			<Actor seed="54711"/>
+		</Entity>
+		<Entity uid="363">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1068.60376" z="1057.4441"/>
+			<Orientation y="1.5813"/>
+			<Actor seed="54711"/>
+		</Entity>
+		<Entity uid="364">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1198.09375" z="980.62519"/>
+			<Orientation y="-2.42963"/>
+			<Actor seed="54711"/>
+		</Entity>
+		<Entity uid="365">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1055.15918" z="958.74708"/>
+			<Orientation y="2.6482"/>
+			<Actor seed="54711"/>
+		</Entity>
+		<Entity uid="366">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1131.65113" z="789.4773"/>
+			<Orientation y="-1.65297"/>
+			<Actor seed="61930"/>
+		</Entity>
+		<Entity uid="367">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1007.26771" z="850.98792"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61930"/>
+		</Entity>
+		<Entity uid="368">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1083.61866" z="764.21082"/>
+			<Orientation y="2.26786"/>
+			<Actor seed="61930"/>
+		</Entity>
+		<Entity uid="369">
+			<Template>actor|particle/cloud_moving_small.xml</Template>
+			<Position x="1137.28882" z="699.35694"/>
+			<Orientation y="-1.34914"/>
+			<Actor seed="61930"/>
+		</Entity>
+		<Entity uid="370">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="886.53736" z="884.75147"/>
+			<Orientation y="-2.86507"/>
+			<Actor seed="63415"/>
+		</Entity>
+		<Entity uid="371">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="837.64258" z="633.57105"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63415"/>
+		</Entity>
+		<Entity uid="372">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="735.50196" z="684.74952"/>
+			<Orientation y="-0.79685"/>
+			<Actor seed="13822"/>
+		</Entity>
+		<Entity uid="373">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="728.18354" z="729.0849"/>
+			<Orientation y="2.59263"/>
+			<Actor seed="13822"/>
+		</Entity>
+		<Entity uid="374">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="760.29041" z="579.37195"/>
+			<Orientation y="-1.36084"/>
+			<Actor seed="13822"/>
+		</Entity>
+		<Entity uid="375">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="670.27533" z="615.94642"/>
+			<Orientation y="2.39109"/>
+			<Actor seed="13822"/>
+		</Entity>
+		<Entity uid="376">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="531.4001" z="445.05567"/>
+			<Orientation y="-0.16012"/>
+			<Actor seed="31171"/>
+		</Entity>
+		<Entity uid="377">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="508.9162" z="564.3423"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34141"/>
+		</Entity>
+		<Entity uid="378">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="781.40204" z="1325.12574"/>
+			<Orientation y="-1.82985"/>
+			<Actor seed="34141"/>
+		</Entity>
+		<Entity uid="379">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="510.76606" z="1196.23633"/>
+			<Orientation y="-2.2065"/>
+			<Actor seed="25639"/>
+		</Entity>
+		<Entity uid="380">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="279.40293" z="1037.18836"/>
+			<Orientation y="-1.97898"/>
+			<Actor seed="25639"/>
+		</Entity>
+		<Entity uid="381">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="152.13144" z="964.05445"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25639"/>
+		</Entity>
+		<Entity uid="382">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="117.50445" z="669.09375"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58808"/>
+		</Entity>
+		<Entity uid="383">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="126.24358" z="638.34144"/>
+			<Orientation y="-1.60192"/>
+			<Actor seed="25322"/>
+		</Entity>
+		<Entity uid="384">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="90.56344" z="638.50861"/>
+			<Orientation y="2.46645"/>
+			<Actor seed="25322"/>
+		</Entity>
+		<Entity uid="385">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="110.20246" z="610.6443"/>
+			<Orientation y="-1.66587"/>
+			<Actor seed="25322"/>
+		</Entity>
+		<Entity uid="386">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="111.25356" z="438.16337"/>
+			<Orientation y="2.33916"/>
+			<Actor seed="25322"/>
+		</Entity>
+		<Entity uid="387">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="144.34116" z="397.21164"/>
+			<Orientation y="0.39515"/>
+			<Actor seed="49045"/>
+		</Entity>
+		<Entity uid="388">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="730.51514" z="828.41187"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49045"/>
+		</Entity>
+		<Entity uid="389">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="818.85029" z="838.84327"/>
+			<Orientation y="1.10103"/>
+			<Actor seed="53308"/>
+		</Entity>
+		<Entity uid="390">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="975.52747" z="889.14368"/>
+			<Orientation y="1.29316"/>
+			<Actor seed="60924"/>
+		</Entity>
+		<Entity uid="391">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1257.75928" z="902.45582"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60924"/>
+		</Entity>
+		<Entity uid="392">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1377.54078" z="962.33484"/>
+			<Orientation y="-1.18448"/>
+			<Actor seed="60924"/>
+		</Entity>
+		<Entity uid="393">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1035.7859" z="1230.03235"/>
+			<Orientation y="1.36768"/>
+			<Actor seed="60924"/>
+		</Entity>
+		<Entity uid="394">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1195.49524" z="1316.85645"/>
+			<Orientation y="-0.71879"/>
+			<Actor seed="61834"/>
+		</Entity>
+		<Entity uid="395">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1155.28064" z="1434.60376"/>
+			<Orientation y="2.478"/>
+			<Actor seed="61834"/>
+		</Entity>
+		<Entity uid="396">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1535.99842" z="905.40284"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61834"/>
+		</Entity>
+		<Entity uid="397">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1437.25562" z="981.20368"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61834"/>
+		</Entity>
+		<Entity uid="398">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1535.99842" z="941.07618"/>
+			<Orientation y="-2.47384"/>
+			<Actor seed="23468"/>
+		</Entity>
+		<Entity uid="399">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1278.68335" z="638.3318"/>
+			<Orientation y="-1.83045"/>
+			<Actor seed="23468"/>
+		</Entity>
+		<Entity uid="400">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="1290.23243" z="510.80713"/>
+			<Orientation y="-1.51166"/>
+			<Actor seed="23468"/>
+		</Entity>
+		<Entity uid="401">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="374.31287" z="1055.76417"/>
+			<Orientation y="1.34556"/>
+			<Actor seed="23468"/>
+		</Entity>
+		<Entity uid="402">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="507.29126" z="949.96363"/>
+			<Orientation y="-2.22252"/>
+			<Actor seed="49329"/>
+		</Entity>
+		<Entity uid="403">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="491.54108" z="834.39948"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49329"/>
+		</Entity>
+		<Entity uid="404">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="519.2057" z="812.39655"/>
+			<Orientation y="2.98655"/>
+			<Actor seed="49329"/>
+		</Entity>
+		<Entity uid="405">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="742.70618" z="574.27729"/>
+			<Orientation y="-0.68444"/>
+			<Actor seed="59130"/>
+		</Entity>
+		<Entity uid="406">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="640.06507" z="727.672"/>
+			<Orientation y="-2.92089"/>
+			<Actor seed="59130"/>
+		</Entity>
+		<Entity uid="407">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="609.06635" z="663.04755"/>
+			<Orientation y="-1.2105"/>
+			<Actor seed="59130"/>
+		</Entity>
+		<Entity uid="408">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="524.62281" z="723.54432"/>
+			<Orientation y="1.92843"/>
+			<Actor seed="59130"/>
+		</Entity>
+		<Entity uid="409">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="616.32581" z="669.48823"/>
+			<Orientation y="-0.70173"/>
+			<Actor seed="42893"/>
+		</Entity>
+		<Entity uid="410">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="504.27375" z="845.6316"/>
+			<Orientation y="2.62734"/>
+			<Actor seed="42893"/>
+		</Entity>
+		<Entity uid="411">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="579.85511" z="692.96863"/>
+			<Orientation y="-1.63201"/>
+			<Actor seed="42893"/>
+		</Entity>
+		<Entity uid="412">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="476.612" z="747.83033"/>
+			<Orientation y="1.8812"/>
+			<Actor seed="42893"/>
+		</Entity>
+		<Entity uid="413">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="755.05872" z="684.2776"/>
+			<Orientation y="-1.14303"/>
+			<Actor seed="62239"/>
+		</Entity>
+		<Entity uid="414">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="661.4557" z="749.64466"/>
+			<Orientation y="2.36545"/>
+			<Actor seed="62239"/>
+		</Entity>
+		<Entity uid="415">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="822.29401" z="571.8216"/>
+			<Orientation y="-1.10434"/>
+			<Actor seed="62239"/>
+		</Entity>
+		<Entity uid="416">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="590.19837" z="681.87745"/>
+			<Orientation y="-0.78258"/>
+			<Actor seed="62239"/>
+		</Entity>
+		<Entity uid="417">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="443.13013" z="832.62183"/>
+			<Orientation y="-3.08365"/>
+			<Actor seed="16068"/>
+		</Entity>
+		<Entity uid="418">
+			<Template>actor|particle/cloud.xml</Template>
+			<Position x="543.2931" z="695.60975"/>
+			<Orientation y="2.81946"/>
+			<Actor seed="16068"/>
+		</Entity>
+		<Entity uid="419">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="652.62433" z="622.73597"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12841"/>
+		</Entity>
+		<Entity uid="420">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="644.24244" z="666.54542"/>
+			<Orientation y="-0.7602"/>
+			<Actor seed="12841"/>
+		</Entity>
+		<Entity uid="421">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="626.51679" z="747.826"/>
+			<Orientation y="1.48653"/>
+			<Actor seed="8448"/>
+		</Entity>
+		<Entity uid="422">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1315.46497" z="412.6601"/>
+			<Orientation y="-0.1879"/>
+			<Actor seed="22675"/>
+		</Entity>
+		<Entity uid="423">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1308.88331" z="506.61326"/>
+			<Orientation y="-1.63483"/>
+			<Actor seed="18094"/>
+		</Entity>
+		<Entity uid="424">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1129.15113" z="414.34623"/>
+			<Orientation y="-1.1181"/>
+			<Actor seed="18094"/>
+		</Entity>
+		<Entity uid="425">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1019.76716" z="652.5434"/>
+			<Orientation y="0.58982"/>
+			<Actor seed="18094"/>
+		</Entity>
+		<Entity uid="426">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="936.91358" z="1037.4911"/>
+			<Orientation y="0.48844"/>
+			<Actor seed="18094"/>
+		</Entity>
+		<Entity uid="427">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="966.45038" z="1304.61731"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45611"/>
+		</Entity>
+		<Entity uid="428">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1116.5962" z="1160.73462"/>
+			<Orientation y="1.64943"/>
+			<Actor seed="9919"/>
+		</Entity>
+		<Entity uid="429">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1331.46705" z="1073.51734"/>
+			<Orientation y="-1.50045"/>
+			<Actor seed="9919"/>
+		</Entity>
+		<Entity uid="430">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="339.11097" z="961.92853"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9919"/>
+		</Entity>
+		<Entity uid="431">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="349.45478" z="917.39856"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60565"/>
+		</Entity>
+		<Entity uid="432">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="268.81354" z="473.14118"/>
+			<Orientation y="-0.7129"/>
+			<Actor seed="60565"/>
+		</Entity>
+		<Entity uid="433">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="311.73572" z="409.08588"/>
+			<Orientation y="2.62726"/>
+			<Actor seed="27715"/>
+		</Entity>
+		<Entity uid="434">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="596.62671" z="239.15448"/>
+			<Orientation y="1.19536"/>
+			<Actor seed="27715"/>
+		</Entity>
+		<Entity uid="435">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="789.2555" z="292.26383"/>
+			<Orientation y="-2.35407"/>
+			<Actor seed="8429"/>
+		</Entity>
+		<Entity uid="436">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="683.64527" z="156.23465"/>
+			<Orientation y="-1.73841"/>
+			<Actor seed="8429"/>
+		</Entity>
+		<Entity uid="437">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="549.1128" z="285.84888"/>
+			<Orientation y="0.46029"/>
+			<Actor seed="42006"/>
+		</Entity>
+		<Entity uid="438">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="664.28882" z="523.20112"/>
+			<Orientation y="-2.2605"/>
+			<Actor seed="42006"/>
+		</Entity>
+		<Entity uid="439">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1118.90809" z="290.68274"/>
+			<Orientation y="-0.543"/>
+			<Actor seed="42006"/>
+		</Entity>
+		<Entity uid="440">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1099.33423" z="698.67536"/>
+			<Orientation y="-2.74703"/>
+			<Actor seed="64443"/>
+		</Entity>
+		<Entity uid="441">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="1211.6161" z="206.70475"/>
+			<Orientation y="-0.8254"/>
+			<Actor seed="64443"/>
+		</Entity>
+		<Entity uid="442">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="610.66797" z="702.99988"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20978"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>
