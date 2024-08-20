@@ -149,4 +149,44 @@
             <target>Leg3_R</target>
             <bone name="Toes_R">
               <target>Toes_R</target>
+<<<<<<< HEAD
       
+=======
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Hip">
+        <target>Hip</target>
+        <bone name="Torso">
+          <target>Torso</target>
+          <bone name="Arm1_L">
+            <target>Arm1_L</target>
+            <bone name="Arm2_L">
+              <target>Arm2_L</target>
+            </bone>
+          </bone>
+          <bone name="Arm1_R">
+            <target>Arm1_R</target>
+            <bone name="Arm2_R">
+              <target>Arm2_R</target>
+            </bone>
+          </bone>
+          <bone name="Shoulder_L">
+            <target>Shoulder_L</target>
+            <bone name="Weapon_L">
+              <target>Weapon_L</target>
+            </bone>
+          </bone>
+          <bone name="Shoulder_R">
+            <target>Shoulder_R</target>
+            <bone name="Weapon_R">
+              <target>Weapon_R</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+  </skeleton>
+</skeletons>
+>>>>>>> 3abc5cf10948c4e5d8120e6241eb442bd2f8db94

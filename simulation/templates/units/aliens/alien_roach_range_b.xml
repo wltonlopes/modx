@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Attack>
+    <Ranged>
+      <AttackName>Spike</AttackName>
+      <Damage>
+        <Pierce>16</Pierce>
+      </Damage>
+      <MaxRange>30</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      <Projectile>
+        <Speed>60</Speed>
+        <Spread>4</Spread>
+        <Gravity>35</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <GenericName>roach range</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>gaia/roach.png</Icon>
+  </Identity>
+   <Position>
+    <Altitude>2.3</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>10</FloatDepth>
+    <TurnRate>10</TurnRate>
+  </Position>
+   <Promotion>
+    <Entity>units/xeno/alien_roach_range_a</Entity>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/lion_select.xml</select>
+      <attack_melee>actor/fauna/animal/lion_attack.xml</attack_melee>
+      <death>actor/fauna/animal/lion_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>3.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>units/aliens/roach.xml</Actor>
+  </VisualActor>
+</Entity>

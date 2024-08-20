@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/xeno/alien_roach_range_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/xeno/alien_roach_range_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/aliens/roach.xml</Actor>
+  </VisualActor>
+</Entity>

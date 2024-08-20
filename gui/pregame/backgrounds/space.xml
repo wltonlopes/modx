@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+	<sprite name="space">
+		<image
+			texture="pregame/backgrounds/space.png"
+			fixed_h_aspect_ratio="1"
+			round_coordinates="false"
+		/>
+	</sprite>
+
+</sprites>

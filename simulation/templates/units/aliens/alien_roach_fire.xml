@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_javelineer">
+  <Attack>
+    <Ranged>
+      <ApplyStatus>
+        <Burning>
+          <Interval>3000</Interval>
+          <Damage>
+            <Fire>2</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Burning>
+      </ApplyStatus>
+     <Damage>
+        <Pierce>25</Pierce>
+      </Damage>
+      <Projectile>
+        <Spread>4</Spread>
+        <LaunchPoint y="2"/>
+      </Projectile>
+      <RepeatTime>1500</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Footprint>
+    <Square width="2.0" depth="4.0"/>
+    <Height>2.5</Height>
+  </Footprint>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <GenericName>roach</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>gaia/roach.png</Icon>
+    <Requirements>
+     <Techs datatype="tokens">
+     	phase_village
+     	-phase_town
+     </Techs>
+     </Requirements>
+  </Identity>
+   <Position>
+    <Altitude>2.3</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>10</FloatDepth>
+    <TurnRate>10</TurnRate>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/lion_select.xml</select>
+      <attack_melee>actor/fauna/animal/lion_attack.xml</attack_melee>
+      <death>actor/fauna/animal/lion_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>3.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>units/aliens/roach_fire.xml</Actor>
+  </VisualActor>
+</Entity>
