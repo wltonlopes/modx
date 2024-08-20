@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="mecharmature" id="mecharmature">
+    <bone name="Main">
+      <bone name="Leg1_L">
+        <bone name="Leg2_L">
+          <bone name="Leg3_L">
+            <bone name="Toes_L" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Leg1_R">
+        <bone name="Leg2_R">
+          <bone name="Leg3_R">
+            <bone name="Toes_R" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Hip">
+        <bone name="Torso">
+          <bone name="Arm1_L">
+            <bone name="Arm2_L" />
+          </bone>
+          <bone name="Arm1_R">
+            <bone name="Arm2_R" />
+          </bone>
+          <bone name="Shoulder_L">
+            <bone name="Weapon_L" />
+          </bone>
+          <bone name="Shoulder_R">
+            <bone name="Weapon_R" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="Main">
+      <bone name="Leg1_L">
+        <bone name="Leg2_L">
+          <bone name="Leg3_L">
+            <bone name="Toes_L" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Leg1_R">
+        <bone name="Leg2_R">
+          <bone name="Leg3_R">
+            <bone name="Toes_R" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Hip">
+        <bone name="Torso">
+          <bone name="Arm1_L">
+            <bone name="Arm2_L" />
+          </bone>
+          <bone name="Arm1_R">
+            <bone name="Arm2_R" />
+          </bone>
+          <bone name="Shoulder_L">
+            <bone name="Weapon_L" />
+          </bone>
+          <bone name="Shoulder_R">
+            <bone name="Weapon_R" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+  </standard_skeleton>
+  <skeleton title="mecharmature" target="mecharmature">
+    <identifier>
+      <root>Main</root>
+    </identifier>
+    <bone name="Main">
+      <target>Main</target>
+      <bone name="Leg1_L">
+        <target>Leg1_L</target>
+        <bone name="Leg2_L">
+          <target>Leg2_L</target>
+          <bone name="Leg3_L">
+            <target>Leg3_L</target>
+            <bone name="Toes_L">
+              <target>Toes_L</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Leg1_R">
+        <target>Leg1_R</target>
+        <bone name="Leg2_R">
+          <target>Leg2_R</target>
+          <bone name="Leg3_R">
+            <target>Leg3_R</target>
+            <bone name="Toes_R">
+              <target>Toes_R</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Hip">
+        <target>Hip</target>
+        <bone name="Torso">
+          <target>Torso</target>
+          <bone name="Arm1_L">
+            <target>Arm1_L</target>
+            <bone name="Arm2_L">
+              <target>Arm2_L</target>
+            </bone>
+          </bone>
+          <bone name="Arm1_R">
+            <target>Arm1_R</target>
+            <bone name="Arm2_R">
+              <target>Arm2_R</target>
+            </bone>
+          </bone>
+          <bone name="Shoulder_L">
+            <target>Shoulder_L</target>
+            <bone name="Weapon_L">
+              <target>Weapon_L</target>
+            </bone>
+          </bone>
+          <bone name="Shoulder_R">
+            <target>Shoulder_R</target>
+            <bone name="Weapon_R">
+              <target>Weapon_R</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="Main">
+      <target>Main</target>
+      <bone name="Leg1_L">
+        <target>Leg1_L</target>
+        <bone name="Leg2_L">
+          <target>Leg2_L</target>
+          <bone name="Leg3_L">
+            <target>Leg3_L</target>
+            <bone name="Toes_L">
+              <target>Toes_L</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Leg1_R">
+        <target>Leg1_R</target>
+        <bone name="Leg2_R">
+          <target>Leg2_R</target>
+          <bone name="Leg3_R">
+            <target>Leg3_R</target>
+            <bone name="Toes_R">
+              <target>Toes_R</target>
+      

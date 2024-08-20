@@ -2,14 +2,21 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="rts-barrack">
+    <variant frequency="1" name="Terran Civic Center">
       <mesh>structural/cc.dae</mesh>
+     <props>
+        <prop actor="structures/space_colony/lights_cc.xml" attachpoint="root"/>
+        <prop actor="particle/zora_sparksA.xml" attachpoint="energy_1"/>
+        <prop actor="particle/zora_sparksA.xml" attachpoint="energy_2"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_large_flaming.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_large.xml" attachpoint="loaded-projectile"/>
+      </props>
       <textures>
-        <texture file="structural/cc/struct_base.png" name="baseTex"/>
-        <texture file="structural/cc/struct_spec.png" name="specTex"/>
-        <texture file="structural/cc/struct_normal.png" name="normTex"/>
+        <texture file="structural/coalition_struct.png" name="baseTex"/>
+        <texture file="structural/coalition_struct_norm.png" name="normTex"/>
+        <texture file="structural/coalition_struct_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>
