@@ -12,6 +12,7 @@
       units/{civ}/infantry_rifleman_assalt_b
       units/{civ}/infantry_rifleman_heavy
       units/{civ}/infantry_rifleman_snipe
+      units/{civ}/drone
     </Entities>
   </Trainer>
   <VisualActor>

@@ -18,7 +18,8 @@
       units/{civ}/infantry_rifleman_snipe_b
       units/{civ}/infantry_rifleman_assalt_b
       units/{civ}/infantry_rifleman_anti_veh_b
-      units/{civ}/suport_fly
+      units/{civ}/infantry_rifleman_commander_b
+      units/{civ}/tank_2
     </Entities>
   </Trainer>
   <VisualActor>

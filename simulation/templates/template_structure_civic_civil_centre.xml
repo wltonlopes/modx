@@ -56,7 +56,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square depth="32.0" width="32.0"/>
+    <Square depth="44.0" width="32.0"/>
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -93,7 +93,7 @@
     <Icon size="16.0">civil_centre.png</Icon>
   </Minimap>
   <Obstruction>
-    <Static depth="30.0" width="30.0"/>
+    <Static depth="40.0" width="30.0"/>
   </Obstruction>
   <Population>
     <Bonus>20</Bonus>

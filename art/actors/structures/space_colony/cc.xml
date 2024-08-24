@@ -6,6 +6,7 @@
       <mesh>structural/cc.dae</mesh>
      <props>
         <prop actor="structures/space_colony/lights_cc.xml" attachpoint="root"/>
+        <prop actor="structures/space_colony/flag.xml" attachpoint="flag1"/>
         <prop actor="particle/zora_sparksA.xml" attachpoint="energy_1"/>
         <prop actor="particle/zora_sparksA.xml" attachpoint="energy_2"/>
         <prop actor="props/units/siege_artillery/stone_projectile_large_flaming.xml" attachpoint="projectile"/>

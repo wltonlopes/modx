@@ -2,9 +2,9 @@
 <Entity parent="template_unit_vehicle">
   <Decay>
     <SinkingAnim>true</SinkingAnim>
-    <DelayTime>0.0</DelayTime>
+    <DelayTime>1.0</DelayTime>
     <SinkRate>0.5</SinkRate>
-    <SinkAccel>7.0</SinkAccel>
+    <SinkAccel>4.0</SinkAccel>
   </Decay>
   <Footprint replace="">
     <Square width="10.0" depth="20.0"/>
@@ -25,7 +25,6 @@
   </Health>
   <Identity>
     <GenericName>Ship</GenericName>
-    <Classes datatype="tokens">-Organic</Classes>
     <!-- <VisibleClasses datatype="tokens">Ship</VisibleClasses> -->
   </Identity>
   <Position>

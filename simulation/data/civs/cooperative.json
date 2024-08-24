@@ -36,13 +36,6 @@
 					"Armament": "Obsidian spear",
 					"Emblem": "",
 					"History": "Mythical ruler of El Mirador from the pre-classical period."
-				},
-				{
-					"Name": "Ix Muluc",
-					"Class": "Hero Queen",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Mythic ruler of Kaminaljyú in pre-classical period."
 				}
 			]
 		}
@@ -93,11 +86,11 @@
 		},
 		{
 			"Template": "units/cooperative/infantry_rifleman_assalt_b",
-			"Count": 4
+			"Count": 6
 		},
 		{
 			"Template": "units/cooperative/jeep",
-			"Count": 2
+			"Count": 1
 		}
 	],
 	"AINames": [
@@ -106,7 +99,7 @@
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_cavalry": "units/cooperative/jeep",
-		"skirmish/units/special_starting_unit": "units/cooperative/jeep",
+		"skirmish/units/special_starting_unit": "units/cooperative/infantry_rifleman_assalt_b",
 		"skirmish/units/default_infantry_ranged_b": "units/cooperative/infantry_rifleman_assalt_b",
 		"skirmish/units/default_infantry_melee_b": "units/cooperative/infantry_rifleman_assalt_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house",

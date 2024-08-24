@@ -4,7 +4,7 @@
   <group>
     <variant frequency="1" name="Flag">
      <props>
-        <prop actor="props/special/common/garrison_flag_iber.xml" attachpoint="flag_point"/>
+        <prop actor="props/special/common/flag_cooperative.xml" attachpoint="flag_point"/>
       </props>
       <mesh>structural/flag.dae</mesh>
       <textures>

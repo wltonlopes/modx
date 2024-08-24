@@ -15,7 +15,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="meca/shootr.xml" name="Attack_Ranged"/>
+    <variant file="weapons/shootr.xml" name="Attack_Ranged"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>

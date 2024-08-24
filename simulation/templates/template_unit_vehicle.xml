@@ -9,7 +9,7 @@
     <SinkAccel>2.0</SinkAccel>
   </Decay>
   <Footprint replace="">
-    <Square width="5.0" depth="20.0"/>
+    <Square width="5.0" depth="10.0"/>
     <Height>10.0</Height>
     <MaxSpawnDistance>10</MaxSpawnDistance>
   </Footprint>
@@ -26,7 +26,6 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Identity>
-    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Siege</VisibleClasses>
     <GenericName>Siege</GenericName>
     <!-- <Requirements>
