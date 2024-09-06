@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_vehicle_aircraft">
+  <Identity>
+    <Civ>cooperative</Civ>
+    <SpecificName>Triḗrēs Athēnaía</SpecificName>
+    <Icon>units/athen/ship_ram.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/space_colony/chopper.xml</Actor>
+  </VisualActor>
+</Entity>

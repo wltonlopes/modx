@@ -9,7 +9,7 @@
     <Civ>cooperative</Civ>
     <GenericName>Snipe Infantry</GenericName>
     <SpecificName>Snipe Infantry</SpecificName>
-    <SelectionGroupName>units/surv/assault_infantry</SelectionGroupName>
+    <SelectionGroupName>units/sniper</SelectionGroupName>
      <Icon>units/space_colony/guardians.png</Icon>
   </Identity>
     <Promotion>

@@ -9,7 +9,7 @@
     <Civ>cooperative</Civ>
     <GenericName>Assault Infantry</GenericName>
     <SpecificName>Assault Infantry</SpecificName>
-    <SelectionGroupName>units/surv/assault_infantry</SelectionGroupName>
+    <SelectionGroupName>units/assault_infantry</SelectionGroupName>
      <Icon>units/space_colony/guardians.png</Icon>
   </Identity>
     <Promotion>

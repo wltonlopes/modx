@@ -5,6 +5,11 @@
     <SpecificName>Drone Kamikaze</SpecificName>
     <Icon>units/athen/ship_ram.png</Icon>
   </Identity>
+  <Pack>
+    <Time>1000</Time>
+    <Entity>units/cooperative/drone_explosion</Entity>
+    <State>packed</State>
+  </Pack>
   <VisualActor>
     <Actor>units/space_colony/drone_kamikaze.xml</Actor>
   </VisualActor>
