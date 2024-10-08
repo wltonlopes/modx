@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman">
+<!--     <Capturable>
+    <CapturePoints>25</CapturePoints>
+    <RegenRate>0</RegenRate>
+    <GarrisonRegenRate>0</GarrisonRegenRate>
+  </Capturable> -->
+  <Identity>
+    <Civ>alliance</Civ>
+    <GenericName>Anti veh Infantry</GenericName>
+    <SpecificName>Anti veh Infantry</SpecificName>
+    <SelectionGroupName>units/antiveh</SelectionGroupName>
+     <Icon>units/space_colony/guardians.png</Icon>
+  </Identity>
+    <Promotion>
+    <Entity>units/alliance/infantry_rifleman_anti_veh_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed>12.0</WalkSpeed>
+    <RunMultiplier>1.67</RunMultiplier>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/space_colony/rifle_assalt_anti_veh_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

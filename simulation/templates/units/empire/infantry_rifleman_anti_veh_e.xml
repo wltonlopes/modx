@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/empire/infantry_rifleman_anti_veh_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/space_colony/rifle_assalt_anti_veh_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

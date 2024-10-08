@@ -12,6 +12,6 @@
     <Static width="28" depth="30"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/space_colony/hangar_log.xml</Actor>
+    <Actor>structures/cooperative/hangar_log.xml</Actor>
   </VisualActor>
 </Entity>

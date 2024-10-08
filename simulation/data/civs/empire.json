@@ -93,7 +93,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/empire/infantry_rifleman_assalt",
+			"Template": "units/empire/infantry_rifleman_assalt_b",
 			"Count": 4
 		},
 		{
@@ -107,9 +107,9 @@
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_cavalry": "units/empire/hero_rifler",
-		"skirmish/units/special_starting_unit": "units/empire/infantry_blowgunner_b",
-		"skirmish/units/default_infantry_ranged_b": "units/empire/infantry_rifleman_assalt",
-		"skirmish/units/default_infantry_melee_b": "units/empire/infantry_rifleman_assalt",
+		"skirmish/units/special_starting_unit": "units/empire/infantry_rifleman_assalt_b",
+		"skirmish/units/default_infantry_ranged_b": "units/empire/infantry_rifleman_assalt_b",
+		"skirmish/units/default_infantry_melee_b": "units/empire/infantry_rifleman_assalt_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house",
 		"skirmish/units/default_ship_trireme": "units/empire/ship_bireme"
 	},

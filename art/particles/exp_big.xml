@@ -10,9 +10,9 @@
     <start_full/>
 
 
-    <constant name="emissionrate" value="1.0"/>
+    <constant name="emissionrate" value="3.0"/>
 
-    <uniform name="lifetime" min="0.5" max="0.6"/>
+    <uniform name="lifetime" min="2.5" max="2.6"/>
 
 
     <uniform name="angle" min="-0.1" max="0.1"/>

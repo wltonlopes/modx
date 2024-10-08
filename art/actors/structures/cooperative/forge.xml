@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="hangar">
+      <mesh>structural/forge.dae</mesh>
+      <textures>
+        <texture file="structural/hangar/struct_base.png" name="baseTex"/>
+        <texture file="structural/hangar/struct_spec.png" name="specTex"/>
+        <texture file="structural/hangar/struct_normal.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

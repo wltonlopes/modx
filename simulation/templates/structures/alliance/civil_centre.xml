@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>alliance</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_rifleman_assalt_b
+      units/{civ}/infantry_rifleman_heavy
+      units/{civ}/infantry_rifleman_snipe
+      units/{civ}/drone
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/alliance/cc.xml</Actor>
+  </VisualActor>
+</Entity>

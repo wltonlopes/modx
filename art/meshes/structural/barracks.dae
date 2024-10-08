@@ -41,7 +41,7 @@
   </library_effects>
   <library_images>
     <image id="coalition_struct_png" name="coalition_struct_png">
-      <init_from>/media/milena/0c870e61-5200-459e-8c72-034b7dfbbc73/home/ton/0ad/binaries/data/mods/galaticWars_mod/art/textures/skins/structural/terran/coalition_struct.png</init_from>
+      <init_from>/media/milena/0c870e61-5200-459e-8c72-034b7dfbbc73/home/ton/0ad/binaries/data/mods/galaticWars_mod/art/textures/skins/structural/terran/alliance_struct.png</init_from>
     </image>
   </library_images>
   <library_materials>

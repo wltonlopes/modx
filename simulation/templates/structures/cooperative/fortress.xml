@@ -18,7 +18,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/space_colony/fortress.xml</Actor>
+    <Actor>structures/cooperative/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

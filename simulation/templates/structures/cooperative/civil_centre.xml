@@ -16,6 +16,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/space_colony/cc.xml</Actor>
+    <Actor>structures/cooperative/cc.xml</Actor>
   </VisualActor>
 </Entity>

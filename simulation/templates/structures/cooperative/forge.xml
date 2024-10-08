@@ -5,6 +5,6 @@
     <SpecificName>Khalkeṓn</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/space_colony/engineering_bay.xml</Actor>
+    <Actor>structures/cooperative/engineering_bay.xml</Actor>
   </VisualActor>
 </Entity>

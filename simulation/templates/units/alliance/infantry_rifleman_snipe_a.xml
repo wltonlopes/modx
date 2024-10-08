@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/alliance/infantry_rifleman_snipe_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/alliance/infantry_rifleman_snipe_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/space_colony/rifle_assalt_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

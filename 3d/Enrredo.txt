@@ -1,0 +1,68 @@
+Enredo para o Jogo: Fronteiras Estelares
+
+Contexto: No final do século 22, a humanidade conquistou as estrelas, expandindo suas fronteiras além da Terra, explorando e colonizando o Sistema Solar. No início, a União das Nações Espaciais (UNE) governava com promessas de paz e prosperidade. No entanto, à medida que as colônias cresciam e os recursos escasseavam, tensões políticas, culturais e econômicas começaram a fragmentar a União.
+
+Após décadas de conflitos, a UNE se desfez em três superpotências que agora disputam a hegemonia no Sistema Solar:
+
+    Aliança das Nações Unidas da Terra e da Lua (ANETL):
+    Com sede na Terra e nas estações lunares, a ANETL representa o último bastião da civilização antiga e centralizada. Governada por uma elite tecnocrática, busca manter a ordem e o controle sobre os recursos do Sistema Solar, defendendo a ideia de que a Terra é o berço da humanidade e deve continuar no centro do poder galáctico. Sua tecnologia avançada e exércitos robóticos fazem dela uma potência temida, mas suas cidades superpovoadas e economias em colapso interno a tornam uma entidade em decadência.
+
+    Repúblicas Populares da Confederação de Marte (RPCM):
+    A Confederação Marciana nasceu de uma revolução operária, forjada nos desertos vermelhos de Marte. As Repúblicas Populares acreditam em um sistema socialista descentralizado, onde as colônias operam como estados autônomos, compartilhando recursos e tecnologia. Embora menos centralizada que a ANETL, a Confederação é altamente eficiente e conta com uma população marciana unida por um forte senso de propósito. Sua vantagem reside na engenharia biotecnológica avançada, que permite a colonização de ambientes hostis, mas sua estrutura política é instável, com facções internas que desafiam o status quo.
+
+    Império das Luas de Júpiter e Saturno (ILJS):
+    O Império das Luas é uma teocracia imperial governada por uma casta de aristocratas que reivindica descendência direta dos antigos conquistadores espaciais. Situado nas luas geladas de Júpiter e Saturno, esse império se considera a verdadeira evolução da humanidade, adaptada para viver longe do calor do Sol. Seus cidadãos são geneticamente modificados para suportar as condições extremas, e o Império mantém um vasto exército de guerreiros clônicos. Embora isolados, os imperiais controlam vastos recursos energéticos, e sua religião baseada no culto aos antigos exploradores lhes confere um fervor fanático em suas campanhas militares.
+
+    ### Enredo Expandido: *Fronteiras Estelares*
+
+Além das três superpotências que emergiram após a fragmentação da União das Nações Espaciais, há uma ameaça antiga e misteriosa que começa a se revelar nas sombras da história da humanidade. Escondidas sob as areias vermelhas de Marte e as profundezas escuras de Ceres, duas subfacções alienígenas antigas, de natureza animalesca, começam a ressurgir, forçando as facções humanas a confrontar não apenas seus rivais, mas também uma força desconhecida e perigosa.
+
+---
+
+### Subfacções Alienígenas:
+
+1. **Os Karthoi de Marte**  
+   Nas profundezas dos desertos inóspitos de Marte, há muito tempo antes da chegada dos colonos humanos, existia uma civilização alienígena altamente avançada e militarista, os **Karthoi**. Com aparência bestial, os Karthoi são criaturas semi-reptilianas com um corpo robusto, braços poderosos e uma pele endurecida para suportar as condições brutais de Marte. Sua tecnologia se funde com a biologia, permitindo que eles manipulem a terra e a fauna local, transformando-os em armas vivas.
+
+   Por milênios, eles estiveram adormecidos, hibernando em câmaras subterrâneas, esperando o momento de despertar. No entanto, com a colonização humana e a mineração em larga escala, a antiga hibernação dos Karthoi foi interrompida. Agora, divididos em várias tribos, eles começam a emergir das profundezas. Algumas tribos buscam vingança pela invasão de seus domínios, enquanto outras tentam coexistir ou explorar a tecnologia humana para fortalecer sua própria civilização.
+
+   **Características dos Karthoi:**
+   - **Tecnologia Bioengenheira:** Eles usam organismos vivos como armas, criando criaturas híbridas de combate, como escorpiões gigantes de combate ou plantas predadoras que engolem soldados inimigos.
+   - **Habilidades Psíquicas Coletivas:** Algumas tribos Karthoi possuem líderes com habilidades psíquicas que podem controlar mentes humanas e manipular o ambiente ao seu redor.
+   - **Facções Internas:** As tribos Karthoi estão divididas em vários clãs, como o Clã Ahlkor (belicista e tradicionalista) e o Clã Jithar (mais inclinado à coexistência com os humanos). A relação do jogador com essas tribos pode definir se Marte se torna um campo de batalha ou um ponto de equilíbrio entre humanos e Karthoi.
+
+2. **Os Drakari de Ceres**  
+   Sob o manto gelado e rochoso de Ceres, a maior das rochas do cinturão de asteroides, reside uma civilização ainda mais misteriosa e selvagem, os **Drakari**. Diferente dos Karthoi, os Drakari são criaturas invertebradas, semelhantes a artrópodes gigantescos, com carapaças resistentes e tentáculos que utilizam para manipular sua tecnologia rudimentar, mas eficaz. Embora não possuam a mesma sofisticação tecnológica dos Karthoi, eles são extremamente adaptáveis e capazes de sobreviver em ambientes hostis e de gravidade zero.
+
+   Os Drakari são governados por uma colônia de "mentes rainhas", uma espécie de matriarcado, onde as rainhas mais poderosas controlam vastos enxames de guerreiros e trabalhadores. Para eles, a mineração humana em Ceres representa uma invasão de seus domínios, e, ao contrário dos Karthoi, os Drakari são muito mais agressivos e difíceis de negociar. Sua presença é uma ameaça para qualquer força humana que ouse explorar o cinturão de asteroides, e recentemente suas incursões começaram a se espalhar para as luas de Júpiter e Saturno.
+
+   **Características dos Drakari:**
+   - **Enxames em Massa:** Os Drakari não são tão dependentes de tecnologia avançada, mas sua vantagem numérica e suas táticas de enxame podem sobrepujar até os exércitos mais sofisticados. Eles se movem em grandes grupos e utilizam técnicas de emboscada em cavernas escuras e túneis estreitos.
+   - **Tecnologia Bioquímica:** Os Drakari utilizam substâncias químicas e ácidos naturais produzidos por seus corpos para dissolver metal e carne, criando uma ameaça biológica para qualquer exército humano.
+   - **Habilidades de Sobrevivência Extrema:** Adaptados a viver em gravidade zero e ambientes frios, eles podem sobreviver em condições que seriam fatais para os humanos, dando-lhes uma grande vantagem em asteroides e luas geladas.
+
+   **Facções Internas dos Drakari:**
+   - **Colônia de Karvaxx:** A colônia mais numerosa e agressiva, liderada por uma rainha tirânica, Karvaxx, que deseja expandir seu território e conquistar novas luas e asteroides.
+   - **Colônia de Zitharx:** Menor, mas mais inteligente, Zitharx está disposta a negociar com as potências humanas para preservar seu território em troca de recursos. No entanto, é uma facção extremamente desconfiada e traiçoeira.
+
+---
+
+### Nova Trama: O Ressurgimento dos Antigos
+
+Com as três superpotências humanas lutando pelo controle do Sistema Solar, o despertar das subfacções alienígenas Karthoi e Drakari representa uma nova ameaça existencial. Enquanto a ANETL, a Confederação de Marte e o Império das Luas disputam o domínio sobre a tecnologia antiga encontrada em Europa, as tribos Karthoi e as colônias Drakari começam a se mover nas sombras, formando alianças com facções humanas menores ou atacando pontos fracos.
+
+O jogador terá a opção de se aliar ou enfrentar essas facções alienígenas, cada uma com seus próprios interesses e métodos de interação. Enquanto algumas tribos Karthoi podem oferecer tecnologias biológicas e habilidades psíquicas em troca de alianças, os Drakari podem ser usados como exércitos de choque devastadores, mas traiçoeiros.
+
+---
+
+### Mecânicas de Subfacções Alienígenas:
+
+- **Aliados ou Inimigos:** O jogador pode optar por tentar negociar com as tribos Karthoi e as colônias Drakari, ou enfrentá-los em combates brutais. Suas escolhas afetarão não apenas as relações com as facções humanas, mas também a dinâmica de poder no Sistema Solar.
+  
+- **Tecnologia Alienígena:** Ao se aliar com uma subfacção alienígena, o jogador pode desbloquear novas tecnologias, como armas biológicas Karthoi ou venenos corrosivos Drakari, e até mesmo usar criaturas alienígenas modificadas como parte de seu exército.
+
+- **Exploração e Descobertas:** A exploração de ruínas subterrâneas em Marte ou cavernas em Ceres pode revelar segredos antigos dessas civilizações alienígenas, que podem ser usados para mudar o curso da guerra entre as superpotências humanas.
+
+---
+
+Com a adição dos Karthoi e dos Drakari, *Fronteiras Estelares* se torna um jogo onde as ameaças não são apenas políticas e militares, mas também profundamente alienígenas. O destino da humanidade dependerá da habilidade do jogador em navegar não apenas entre alianças humanas, mas também entre as forças bestiais que se escondem nas profundezas de Marte e Ceres.

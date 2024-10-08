@@ -107,6 +107,7 @@
       unlock_shared_dropsites
       unlock_spies
       spy_counter
+      upgrade_rank_advanced_infantry_ranged
     </Technologies>
   </Researcher>
   <Resistance>

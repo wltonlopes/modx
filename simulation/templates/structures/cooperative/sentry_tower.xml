@@ -16,6 +16,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/space_colony/defense_torreta.xml</Actor>
+    <Actor>structures/cooperative/defense_torreta.xml</Actor>
   </VisualActor>
 </Entity>

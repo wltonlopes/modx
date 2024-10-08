@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="radar">
+      <mesh>structural/radar_tower.dae</mesh>
+      <textures>
+        <texture file="structural/radar/struct_base.png" name="baseTex"/>
+        <texture file="structural/radar/struct_spec.png" name="specTex"/>
+        <texture file="structural/radar/struct_normal.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

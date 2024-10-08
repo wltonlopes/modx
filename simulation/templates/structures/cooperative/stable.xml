@@ -11,7 +11,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/space_colony/hangar.xml</Actor>
+    <Actor>structures/cooperative/hangar.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="vhr_jeep_l">
+      <mesh>structural/vhr_jeep_l.dae</mesh>
+      <textures>
+        <texture file="structural/vhr_jeep_l.png" name="baseTex"/>
+        <texture file="structural/vhr_jeep_l.png" name="specTex"/>
+        <texture file="structural/vhr_jeep_l.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="Walk">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

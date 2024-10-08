@@ -28,6 +28,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/space_colony/torrets/torreta_VBL.xml</Actor>
+    <Actor>structures/cooperative/torrets/torreta_VBL.xml</Actor>
   </VisualActor>
 </Entity>

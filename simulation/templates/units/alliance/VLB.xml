@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_vehicle_landvehicle">
+  <Identity>
+    <Civ>coalition</Civ>
+    <SpecificName>VBL</SpecificName>
+    <Icon>units/hele/siege_tower.png</Icon>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/rifle_attack.xml</attack_ranged>
+      <walk>actor/human/movement/walk.xml</walk>
+      <run>actor/human/movement/run.xml</run>
+    </SoundGroups>
+  </Sound>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+          <X>0.0</X>
+          <!-- lado -->
+          <Y>5.5</Y>
+          <!-- emcima -->
+          <Z>0.0</Z>
+          <!-- frente -->
+          <Template>units/coalition/champion_torret_1</Template>
+          <Angle>1.54</Angle>
+      <Ejectable>false</Ejectable>
+      </One>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>units/space_colony/VBL.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -10,6 +10,6 @@
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/space_colony/EductaionCentre_A.xml</Actor>
+    <Actor>structures/cooperative/EductaionCentre_A.xml</Actor>
   </VisualActor>
 </Entity>
