@@ -8,7 +8,7 @@
   <Identity>
     <Civ>empire</Civ>
     <GenericName>Anti veh Infantry</GenericName>
-    <SpecificName>Anti veh Infantry</SpecificName>
+    <SpecificName>Legion III of Ganimedes</SpecificName>
     <SelectionGroupName>units/antiveh</SelectionGroupName>
      <Icon>units/space_colony/guardians.png</Icon>
   </Identity>

@@ -4,6 +4,10 @@
   <group>
     <variant frequency="1" name="chopper">
       <mesh>structural/chopper.dae</mesh>
+      <props>
+        <prop actor="props/units/siege_artillery/stone_projectile_large_flaming.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_large.xml" attachpoint="loaded-projectile"/>
+      </props>
       <textures>
         <texture file="structural/chopper/struct_base.png" name="baseTex"/>
         <texture file="structural/chopper/struct_spec.png" name="specTex"/>

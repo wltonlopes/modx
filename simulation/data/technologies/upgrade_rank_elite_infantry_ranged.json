@@ -1,10 +1,7 @@
 {
 	"genericName": "Elite Ranged-Infantry",
 	"specificName": {
-		"hele": "Zeugites",
-		"mace": "Zeugites",
-		"spart": "Zeugites",
-		"athen": "Zeugites"
+		"hele": "Zeugites"
 	},
 	"description": "Upgrade all of your ranged citizen-soldier infantrymen to Elite rank.",
 	"cost": {

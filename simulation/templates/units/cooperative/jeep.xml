@@ -6,6 +6,6 @@
     <Icon>units/athen/ship_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/space_colony/vhr_jeep_l.xml</Actor>
+    <Actor>structures/cooperative/vhr_jeep_l.xml</Actor>
   </VisualActor>
 </Entity>

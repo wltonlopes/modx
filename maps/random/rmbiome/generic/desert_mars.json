@@ -1,0 +1,93 @@
+{
+	"Description": {
+		"Title": "Mars Desert",
+		"Description": "A semi-desert area that boasts numerous clumps of date palms and acacia trees. Herds of camels roam the wild and the occasional gazelle jumps up in fright at being disturbed."
+	},
+	"Environment": {
+		"SunColor": { "r": 0.976471, "g": 0.858824, "b": 0.74902 },
+		"SunElevation": 0.65,
+		"SunRotation": -0.3,
+		"AmbientColor": { "r": 0.231373, "g": 0.282353, "b": 0.356863 },
+		"Water": {
+			"WaterBody": {
+				"Color": { "r": 0.376, "g": 0.267, "b": 0.122 },
+				"Tint": { "r": 0.502, "g": 0.502, "b": 0 },
+				"Murkiness": 0.9,
+				"Waviness": 3
+			}
+		},
+		"Fog": {
+			"FogThickness": 0.05,
+			"FogFactor": 0.003,
+			"FogColor": { "r": 0.992, "g": 0.949, "b": 0.839 }
+		},
+		"Postproc": {
+			"PostprocEffect": "hdr",
+			"Saturation": 0.95,
+			"Contrast": 1.02,
+			"Bloom": 0.120
+		}
+	},
+	"Terrains": {
+		"mainTerrain": [
+			"nubia_sand_01",
+			"nubia_sand_02",
+			"nubia_sand_03"
+		],
+		"forestFloor1": "nubia_sand_dunes_01",
+		"forestFloor2": "nubia_sand_dunes_01",
+		"cliff": [
+			"nubia_rock_01"
+		],
+		"tier1Terrain": "nubia_rocks_dirt_01",
+		"tier2Terrain": "nubia_rocks_dirt_02",
+		"tier3Terrain": "nubia_sand_03",
+		"tier4Terrain": "nubia_sand_02",
+		"hill": [
+			"nubia_dirt_02"
+		],
+		"dirt": [
+			"nubia_dirt_01",
+			"nubia_dirt_02"
+		],
+		"road": "nubia_paving_stones_01",
+		"roadWild": "nubia_paving_stones_01_sand_01",
+		"shoreBlend": "nubia_sand_01_dunes",
+		"shore": "nubia_sand_02",
+		"water": "nubia_sand_01_wet"
+	},
+	"Gaia": {
+		"tree1": "actor|gaia/tree_alien_1.xml",
+		"tree2": "actor|gaia/tree_alien_1.xml",
+		"tree3": "actor|gaia/tree_alien_1.xml",
+		"tree4": "actor|gaia/tree_alien_1.xml",
+		"tree5": "actor|gaia/tree_alien_1.xml",
+		"fruitBush": "gaia/rock/desert_small",
+		"startingAnimal": "gaia/rock/desert_small",
+		"mainHuntableAnimal": "gaia/rock/desert_small",
+		"fish": "gaia/fish/generic",
+		"secondaryHuntableAnimal": "units/aliens/alien_roach_warrior_b",
+		"stoneLarge": "gaia/rock/desert_large",
+		"stoneSmall": "gaia/rock/desert_small",
+		"metalLarge": "gaia/ore/savanna_01",
+		"metalSmall": "gaia/ore/desert_small"
+	},
+	"Decoratives": {
+		"grass": "actor|props/flora/bush_desert_dry_a.xml",
+		"grassShort": "actor|props/flora/plant_desert_a.xml",
+		"reeds": "actor|props/flora/papyrus.xml",
+		"lillies": "actor|props/flora/water_lillies.xml",
+		"rockLarge": "actor|geology/stone_desert_med.xml",
+		"rockMedium": "actor|geology/stone_desert_med.xml",
+		"bushMedium": "actor|props/flora/plant_tropic_large.xml",
+		"bushSmall": "actor|props/flora/bush_dry_a.xml",
+		"tree": "actor|props/flora/bush_dry_a.xml"
+	},
+	"ResourceCounts": {
+		"trees": {
+			"min": 10,
+			"max": 50,
+			"forestProbability": 0.2
+		}
+	}
+}

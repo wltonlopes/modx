@@ -8,7 +8,7 @@
   <Identity>
     <Civ>alliance</Civ>
     <GenericName>Assault Infantry</GenericName>
-    <SpecificName>Assault Infantry</SpecificName>
+    <SpecificName>Earth Conscript Troops Blue Birds</SpecificName>
     <SelectionGroupName>units/assault_infantry</SelectionGroupName>
      <Icon>units/space_colony/guardians.png</Icon>
   </Identity>

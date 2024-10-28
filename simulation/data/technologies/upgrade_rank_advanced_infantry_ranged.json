@@ -1,10 +1,7 @@
 {
 	"genericName": "Advanced ExoArmor Infantry",
 	"specificName": {
-		"hele": "Metikoi",
-		"mace": "Metikoi",
-		"spart": "Metikoi",
-		"athen": "Metikoi"
+		"hele": "Metikoi"
 	},
 	"description": "Upgrade all of your Basic infantrymen to Advanced rank.",
 	"cost": {

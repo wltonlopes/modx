@@ -7,8 +7,8 @@
   </Capturable> -->
   <Identity>
     <Civ>cooperative</Civ>
-    <GenericName>Snipe Infantry</GenericName>
-    <SpecificName>Snipe Infantry</SpecificName>
+    <GenericName>Marines Infantry</GenericName>
+    <SpecificName>Planetary Cooperative Army Grifos</SpecificName>
     <SelectionGroupName>units/commanders</SelectionGroupName>
      <Icon>units/space_colony/guardians.png</Icon>
   </Identity>
