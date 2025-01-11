@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Identity>
+    <Civ>confederation</Civ>
+  </Identity>
+ <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/VLB
+      units/{civ}/jeep
+      units/{civ}/chopper
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/confederation/hangar.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

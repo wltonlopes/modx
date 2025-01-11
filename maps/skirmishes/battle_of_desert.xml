@@ -10,7 +10,7 @@
 		<Fog>
 			<FogFactor>0.000996094</FogFactor>
 			<FogThickness>0.450195</FogThickness>
-			<FogColor r="0.8" g="0.8" b="0.898039"/>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
 		</Fog>
 		<Water>
 			<WaterBody>
@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="1378.41" y="190.122" z="44.8119"/>
+		<Position x="1125.4" y="214.027" z="253.58"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -47,13 +47,11 @@
   "Name": "Battle of desert",
   "PlayerData": [
     {
-      "Civ": "cooperative",
       "Color": {
         "b": 39,
         "g": 39,
         "r": 131
       },
-      "Name": "Rome",
       "Resources": {
         "food": 250,
         "metal": 250,
@@ -63,13 +61,11 @@
       "Team": 0
     },
     {
-      "Civ": "cooperative",
       "Color": {
         "b": 200,
         "g": 46,
         "r": 46
       },
-      "Name": "Veii",
       "Resources": {
         "food": 250,
         "metal": 250,

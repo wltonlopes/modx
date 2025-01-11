@@ -97,7 +97,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/empire/a_mothership",
+			"Template": "units/empire/cavalry_crossbowman",
 			"Count": 1
 		}
 	],
@@ -106,7 +106,7 @@
 		"AIname2"	
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/empire/a_mothership",
+		"skirmish/units/default_cavalry": "units/empire/cavalry_crossbowman",
 		"skirmish/units/special_starting_unit": "units/empire/infantry_rifleman_assalt_b",
 		"skirmish/units/default_infantry_ranged_b": "units/empire/infantry_rifleman_assalt_b",
 		"skirmish/units/default_infantry_melee_b": "units/empire/infantry_rifleman_assalt_b",

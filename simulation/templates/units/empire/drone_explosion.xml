@@ -26,6 +26,6 @@
     <State>unpacked</State>
   </Pack>
   <VisualActor>
-    <Actor>units/space_colony/drone_kamikaze.xml</Actor>
+    <Actor>units/space_colony/jovinianos/drone_kamikaze.xml</Actor>
   </VisualActor>
 </Entity>

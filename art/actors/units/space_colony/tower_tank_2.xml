@@ -3,13 +3,13 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="house">
-      <mesh>units/tower_tank_2.dae</mesh>
+      <mesh>units/tank_01_t.dae</mesh>
       <props>
         <prop actor="props/units/weapons/bolt.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/bolt.xml" attachpoint="loaded-projectile"/>
       </props>
       <textures>
-        <texture file="structural/tank.png" name="baseTex"/>
+        <texture file="structural/tank_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

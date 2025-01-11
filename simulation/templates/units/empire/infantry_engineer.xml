@@ -36,6 +36,6 @@
     <SelectionGroupName>units/{civ}/engineer</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/space_colony/worker.xml</Actor>
+    <Actor>units/space_colony/jovinianos/worker.xml</Actor>
   </VisualActor>
 </Entity>

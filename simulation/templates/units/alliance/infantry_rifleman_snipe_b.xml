@@ -20,6 +20,6 @@
     <RunMultiplier>1.67</RunMultiplier>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/space_colony/rifle_assalt_snipe_{phenotype}.xml</Actor>
+    <Actor>units/space_colony/earth/rifle_assalt_snipe_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

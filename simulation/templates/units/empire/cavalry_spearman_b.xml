@@ -28,6 +28,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>units/space_colony/VBL.xml</Actor>
+    <Actor>units/space_colony/jovinianos/VBL.xml</Actor>
   </VisualActor>
 </Entity>

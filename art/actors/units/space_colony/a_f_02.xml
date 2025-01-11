@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="a_f_01">
+      <mesh>units/a_f_02.dae</mesh>
+      <props>
+        <prop actor="props/units/siege_artillery/stone_projectile_large_flaming.xml" attachpoint="projectile"/>
+      </props>
+      <textures>
+        <texture file="structural/a_f.png" name="baseTex"/>
+        <texture file="structural/a_f.png" name="normTex"/>
+        <texture file="structural/a_f.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_medium.xml">
+   <props>
+      <prop actor="particle/exp_big.xml" attachpoint="root"/>
+     </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

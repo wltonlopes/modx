@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/terr_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>confederation</Civ>
+    <GenericName>Confederation of Free Martian States</GenericName>
+    <History>Confederation of Free Martian States.</History>
+    <Icon>emblems/emblem_cooperative.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/p_attack
+    </Formations>
+  </Player>
+</Entity>

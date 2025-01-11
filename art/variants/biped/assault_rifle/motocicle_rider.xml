@@ -1,0 +1,12 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="biped/assault_rifle/motocicle_rider1.dae" name="Idle" id="idle1" speed="1"/>
+    <animation file="biped/assault_rifle/motocicle_rider1.dae" name="Idle" id="idle2" speed="1"/>
+    <animation file="biped/assault_rifle/motocicle_rider1.dae" name="Idle" id="idle3" speed="1"/>
+    <animation file="biped/assault_rifle/motocicle_rider1.dae" name="Walk" id="walk1" speed="1"/>
+    <animation file="biped/assault_rifle/motocicle_rider1.dae" name="Walk" id="walk2" speed="1"/>
+    <animation file="biped/assault_rifle/motocicle_rider1.dae" name="Walk" id="walk3" speed="1"/>
+    <animation file="biped/assault_rifle/motocicle_rider1.dae" name="Run" id="run1" speed="5"/>
+    <animation event="0.35" file="biped/assault_rifle/motocicle_rider1.dae" load="0.75" name="attack_ranged" speed="1"/>
+  </animations>
+</variant>

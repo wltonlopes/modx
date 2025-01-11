@@ -29,6 +29,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>units/space_colony/tower_tank_2.xml</Actor>
+    <Actor>units/space_colony/jovinianos/tower_tank_2.xml</Actor>
   </VisualActor>
 </Entity>

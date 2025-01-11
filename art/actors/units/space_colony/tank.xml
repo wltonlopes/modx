@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="tank">
-      <mesh>units/tank.dae</mesh>
+      <mesh>units/tank_01.dae</mesh>
       <props>
         
       </props>
       <textures>
-        <texture file="structural/tank.png" name="baseTex"/>
+        <texture file="structural/tank_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

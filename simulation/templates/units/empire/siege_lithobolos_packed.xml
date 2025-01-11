@@ -16,6 +16,6 @@
     <State>packed</State>
   </Pack>
   <VisualActor>
-    <Actor>units/space_colony/VBL_laucher_c.xml</Actor>
+    <Actor>units/space_colony/jovinianos/VBL_laucher_c.xml</Actor>
   </VisualActor>
 </Entity>

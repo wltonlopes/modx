@@ -86,7 +86,7 @@
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>
     <PatrolWaitTime>0</PatrolWaitTime>
-    <RoamDistance>1000.0</RoamDistance>
+    <RoamDistance>900.0</RoamDistance>
     <FleeDistance>10.0</FleeDistance>
     <RoamTimeMin>10000</RoamTimeMin>
     <RoamTimeMax>100000</RoamTimeMax>
@@ -95,7 +95,7 @@
   </UnitAI>
   <UnitMotion disable=""/>
   <UnitMotionFlying>
-    <MaxSpeed>12.0</MaxSpeed>
+    <MaxSpeed>25.0</MaxSpeed>
     <TakeoffSpeed>0</TakeoffSpeed>
     <LandingSpeed>0</LandingSpeed>
     <AccelRate>10.0</AccelRate>
@@ -103,7 +103,7 @@
     <BrakingRate>0</BrakingRate>
     <TurnRate>2.0</TurnRate>
     <OvershootTime>2.0</OvershootTime>
-    <FlyingHeight>30.0</FlyingHeight>
+    <FlyingHeight>20.0</FlyingHeight>
     <ClimbRate>10.0</ClimbRate>
     <DiesInWater>true</DiesInWater>
     <PassabilityClass>unrestricted</PassabilityClass>

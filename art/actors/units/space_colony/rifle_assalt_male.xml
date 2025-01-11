@@ -21,7 +21,7 @@
     </variant>
   </group>
     <group> 
-    <variant file="biped/assault_rifle/crouched_1.xml"/>
+    <variant file="biped/assault_rifle/alert_1.xml"/>
     <variant file="biped/carry_food_han.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -38,7 +38,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/assault_rifle/shoot_crouched_1.xml" name="Attack_Ranged"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="Attack_Ranged"/>
     <variant file="biped/assault_rifle/violent_1.xml" name="ready"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>

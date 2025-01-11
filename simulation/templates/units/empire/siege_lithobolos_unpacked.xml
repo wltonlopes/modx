@@ -41,6 +41,6 @@
     <WalkSpeed>0.001</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/space_colony/VBL_laucher_o.xml</Actor>
+    <Actor>units/space_colony/jovinianos/VBL_laucher_o.xml</Actor>
   </VisualActor>
 </Entity>

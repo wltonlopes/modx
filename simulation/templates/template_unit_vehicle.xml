@@ -26,7 +26,8 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Identity>
-    <VisibleClasses datatype="tokens">Siege</VisibleClasses>
+    <Classes datatype="tokens">FastMoving</Classes>
+    <VisibleClasses datatype="tokens">Cavalry</VisibleClasses>
     <GenericName>Siege</GenericName>
     <!-- <Requirements>
       <Techs datatype="tokens">phase_city</Techs>
@@ -65,11 +66,11 @@
   <Sound>
     <SoundGroups>
       <attack_ranged>attack/weapon/rifle_attack.xml</attack_ranged>
-      <select>attack/siege/siege_select.xml</select>
-      <order_walk>attack/siege/ram_move.xml</order_walk>
+      <select>engine_heavy.xml</select>
+      <order_walk>engine_heavy.xml</order_walk>
       <order_attack>attack/weapon/rifle_attack.xml</order_attack>
-      <order_attack_move>attack/siege/ram_move.xml</order_attack_move>
-      <trained>attack/siege/ram_trained.xml</trained>
+      <order_attack_move>engine_heavy.xml</order_attack_move>
+      <trained>engine_heavy.xml</trained>
     </SoundGroups>
   </Sound>
   <StatusBars>

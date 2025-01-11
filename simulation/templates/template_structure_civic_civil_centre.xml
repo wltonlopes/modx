@@ -12,7 +12,7 @@
       <Damage>
         <Pierce>10</Pierce>
       </Damage>
-      <MaxRange>60</MaxRange>
+      <MaxRange>150</MaxRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Projectile>
@@ -142,6 +142,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/support_female_citizen
+      units/{civ}/cavalry_crossbowman
     </Entities>
   </Trainer>
   <Vision>

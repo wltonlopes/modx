@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/space_colony/rifle_assalt_anti_veh_{phenotype}.xml</Actor>
+    <Actor>units/space_colony/jovinianos/rifle_assalt_anti_veh_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

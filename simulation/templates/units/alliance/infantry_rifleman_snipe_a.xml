@@ -7,6 +7,6 @@
     <Entity>units/alliance/infantry_rifleman_snipe_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/space_colony/rifle_assalt_{phenotype}.xml</Actor>
+    <Actor>units/space_colony/earth/rifle_assalt_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>
